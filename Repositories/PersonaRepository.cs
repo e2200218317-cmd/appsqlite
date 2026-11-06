@@ -34,6 +34,32 @@ namespace appsql.Repositories
             }
         }
 
+        public bool DeletePerson(int id)
+        {
+            try
+            {
+                if (id <= 0)
+                    throw new ArgumentException("Id de persona inválido");
+
+                Init();
+                int deletedRows = _conn!.Delete<Persona>(id);
+
+                if (deletedRows == 0)
+                {
+                    StatusMessage = "La persona no existe";
+                    return false;
+                }
+
+                StatusMessage = "Persona eliminada correctamente";
+                return true;
+            }
+            catch (Exception ex)
+            {
+                StatusMessage = "Error " + ex.Message;
+                return false;
+            }
+        }
+
         private void Init()
         {
             if (_conn is not null)
