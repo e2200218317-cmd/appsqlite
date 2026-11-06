@@ -6,19 +6,6 @@ public class ConnectivityImplementation_EssentialsNetworkCallback
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onAvailable:(Landroid/net/Network;)V:GetOnAvailable_Landroid_net_Network_Handler\n" +
-			"n_onLost:(Landroid/net/Network;)V:GetOnLost_Landroid_net_Network_Handler\n" +
-			"n_onCapabilitiesChanged:(Landroid/net/Network;Landroid/net/NetworkCapabilities;)V:GetOnCapabilitiesChanged_Landroid_net_Network_Landroid_net_NetworkCapabilities_Handler\n" +
-			"n_onUnavailable:()V:GetOnUnavailableHandler\n" +
-			"n_onLinkPropertiesChanged:(Landroid/net/Network;Landroid/net/LinkProperties;)V:GetOnLinkPropertiesChanged_Landroid_net_Network_Landroid_net_LinkProperties_Handler\n" +
-			"n_onLosing:(Landroid/net/Network;I)V:GetOnLosing_Landroid_net_Network_IHandler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Networking.ConnectivityImplementation+EssentialsNetworkCallback, Microsoft.Maui.Essentials", ConnectivityImplementation_EssentialsNetworkCallback.class, __md_methods);
-	}
 
 	public ConnectivityImplementation_EssentialsNetworkCallback ()
 	{

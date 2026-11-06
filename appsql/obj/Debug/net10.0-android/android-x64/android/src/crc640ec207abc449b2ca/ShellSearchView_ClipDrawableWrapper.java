@@ -6,14 +6,6 @@ public class ShellSearchView_ClipDrawableWrapper
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_draw:(Landroid/graphics/Canvas;)V:GetDraw_Landroid_graphics_Canvas_Handler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Platform.Compatibility.ShellSearchView+ClipDrawableWrapper, Microsoft.Maui.Controls", ShellSearchView_ClipDrawableWrapper.class, __md_methods);
-	}
 
 	public ShellSearchView_ClipDrawableWrapper (android.graphics.drawable.Drawable p0)
 	{

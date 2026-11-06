@@ -7,14 +7,6 @@ public class DynamicAnimation_OnAnimationEndListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.dynamicanimation.animation.DynamicAnimation.OnAnimationEndListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onAnimationEnd:(Landroidx/dynamicanimation/animation/DynamicAnimation;ZFF)V:GetOnAnimationEnd_Landroidx_dynamicanimation_animation_DynamicAnimation_ZFFHandler:AndroidX.DynamicAnimation.DynamicAnimation+IOnAnimationEndListenerInvoker, Xamarin.AndroidX.DynamicAnimation\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.DynamicAnimation.DynamicAnimation+IOnAnimationEndListenerImplementor, Xamarin.AndroidX.DynamicAnimation", DynamicAnimation_OnAnimationEndListenerImplementor.class, __md_methods);
-	}
 
 	public DynamicAnimation_OnAnimationEndListenerImplementor ()
 	{

@@ -7,16 +7,6 @@ public class LifecycleListenerImplementor
 		mono.android.IGCUserPeer,
 		com.bumptech.glide.manager.LifecycleListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onDestroy:()V:GetOnDestroyHandler:Bumptech.Glide.Manager.ILifecycleListenerInvoker, Xamarin.Android.Glide\n" +
-			"n_onStart:()V:GetOnStartHandler:Bumptech.Glide.Manager.ILifecycleListenerInvoker, Xamarin.Android.Glide\n" +
-			"n_onStop:()V:GetOnStopHandler:Bumptech.Glide.Manager.ILifecycleListenerInvoker, Xamarin.Android.Glide\n" +
-			"";
-		mono.android.Runtime.register ("Bumptech.Glide.Manager.ILifecycleListenerImplementor, Xamarin.Android.Glide", LifecycleListenerImplementor.class, __md_methods);
-	}
 
 	public LifecycleListenerImplementor ()
 	{

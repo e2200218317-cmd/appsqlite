@@ -6,14 +6,6 @@ public class MauiTextView
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onLayoutFormatted:(ZIIII)V:GetOnLayoutFormatted_ZIIIIHandler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Platform.MauiTextView, Microsoft.Maui", MauiTextView.class, __md_methods);
-	}
 
 	public MauiTextView (android.content.Context p0)
 	{

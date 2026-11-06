@@ -7,15 +7,6 @@ public class ShapeAppearancePathProvider_PathListenerImplementor
 		mono.android.IGCUserPeer,
 		com.google.android.material.shape.ShapeAppearancePathProvider.PathListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onCornerPathCreated:(Lcom/google/android/material/shape/ShapePath;Landroid/graphics/Matrix;I)V:GetOnCornerPathCreated_Lcom_google_android_material_shape_ShapePath_Landroid_graphics_Matrix_IHandler:Google.Android.Material.Shape.ShapeAppearancePathProvider+IPathListenerInvoker, Xamarin.Google.Android.Material\n" +
-			"n_onEdgePathCreated:(Lcom/google/android/material/shape/ShapePath;Landroid/graphics/Matrix;I)V:GetOnEdgePathCreated_Lcom_google_android_material_shape_ShapePath_Landroid_graphics_Matrix_IHandler:Google.Android.Material.Shape.ShapeAppearancePathProvider+IPathListenerInvoker, Xamarin.Google.Android.Material\n" +
-			"";
-		mono.android.Runtime.register ("Google.Android.Material.Shape.ShapeAppearancePathProvider+IPathListenerImplementor, Xamarin.Google.Android.Material", ShapeAppearancePathProvider_PathListenerImplementor.class, __md_methods);
-	}
 
 	public ShapeAppearancePathProvider_PathListenerImplementor ()
 	{

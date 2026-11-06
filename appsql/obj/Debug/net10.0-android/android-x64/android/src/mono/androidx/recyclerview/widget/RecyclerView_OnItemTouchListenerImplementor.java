@@ -7,16 +7,6 @@ public class RecyclerView_OnItemTouchListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.recyclerview.widget.RecyclerView.OnItemTouchListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onInterceptTouchEvent:(Landroidx/recyclerview/widget/RecyclerView;Landroid/view/MotionEvent;)Z:GetOnInterceptTouchEvent_Landroidx_recyclerview_widget_RecyclerView_Landroid_view_MotionEvent_Handler:AndroidX.RecyclerView.Widget.RecyclerView+IOnItemTouchListenerInvoker, Xamarin.AndroidX.RecyclerView\n" +
-			"n_onRequestDisallowInterceptTouchEvent:(Z)V:GetOnRequestDisallowInterceptTouchEvent_ZHandler:AndroidX.RecyclerView.Widget.RecyclerView+IOnItemTouchListenerInvoker, Xamarin.AndroidX.RecyclerView\n" +
-			"n_onTouchEvent:(Landroidx/recyclerview/widget/RecyclerView;Landroid/view/MotionEvent;)V:GetOnTouchEvent_Landroidx_recyclerview_widget_RecyclerView_Landroid_view_MotionEvent_Handler:AndroidX.RecyclerView.Widget.RecyclerView+IOnItemTouchListenerInvoker, Xamarin.AndroidX.RecyclerView\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.RecyclerView.Widget.RecyclerView+IOnItemTouchListenerImplementor, Xamarin.AndroidX.RecyclerView", RecyclerView_OnItemTouchListenerImplementor.class, __md_methods);
-	}
 
 	public RecyclerView_OnItemTouchListenerImplementor ()
 	{

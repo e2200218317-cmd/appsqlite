@@ -6,17 +6,6 @@ public class GenericAnimatorListener
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onAnimationCancel:(Landroid/animation/Animator;)V:GetOnAnimationCancel_Landroid_animation_Animator_Handler\n" +
-			"n_onAnimationEnd:(Landroid/animation/Animator;)V:GetOnAnimationEnd_Landroid_animation_Animator_Handler\n" +
-			"n_onAnimationRepeat:(Landroid/animation/Animator;)V:GetOnAnimationRepeat_Landroid_animation_Animator_Handler\n" +
-			"n_finalize:()V:GetJavaFinalizeHandler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Platform.GenericAnimatorListener, Microsoft.Maui.Controls", GenericAnimatorListener.class, __md_methods);
-	}
 
 	public GenericAnimatorListener ()
 	{

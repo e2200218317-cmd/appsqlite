@@ -7,14 +7,6 @@ public class GenericGlobalLayoutListener
 		mono.android.IGCUserPeer,
 		android.view.ViewTreeObserver.OnGlobalLayoutListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onGlobalLayout:()V:GetOnGlobalLayoutHandler:Android.Views.ViewTreeObserver+IOnGlobalLayoutListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Platform.GenericGlobalLayoutListener, Microsoft.Maui.Controls", GenericGlobalLayoutListener.class, __md_methods);
-	}
 
 	public GenericGlobalLayoutListener ()
 	{

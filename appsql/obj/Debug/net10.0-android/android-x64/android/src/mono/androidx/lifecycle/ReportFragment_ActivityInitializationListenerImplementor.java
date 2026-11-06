@@ -7,16 +7,6 @@ public class ReportFragment_ActivityInitializationListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.lifecycle.ReportFragment.ActivityInitializationListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onCreate:()V:GetOnCreateHandler:AndroidX.Lifecycle.ReportFragment+IActivityInitializationListenerInvoker, Xamarin.AndroidX.Lifecycle.Runtime.Android\n" +
-			"n_onResume:()V:GetOnResumeHandler:AndroidX.Lifecycle.ReportFragment+IActivityInitializationListenerInvoker, Xamarin.AndroidX.Lifecycle.Runtime.Android\n" +
-			"n_onStart:()V:GetOnStartHandler:AndroidX.Lifecycle.ReportFragment+IActivityInitializationListenerInvoker, Xamarin.AndroidX.Lifecycle.Runtime.Android\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.Lifecycle.ReportFragment+IActivityInitializationListenerImplementor, Xamarin.AndroidX.Lifecycle.Runtime.Android", ReportFragment_ActivityInitializationListenerImplementor.class, __md_methods);
-	}
 
 	public ReportFragment_ActivityInitializationListenerImplementor ()
 	{

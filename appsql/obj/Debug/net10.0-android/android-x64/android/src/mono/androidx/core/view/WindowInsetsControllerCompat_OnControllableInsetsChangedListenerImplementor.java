@@ -7,14 +7,6 @@ public class WindowInsetsControllerCompat_OnControllableInsetsChangedListenerImp
 		mono.android.IGCUserPeer,
 		androidx.core.view.WindowInsetsControllerCompat.OnControllableInsetsChangedListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onControllableInsetsChanged:(Landroidx/core/view/WindowInsetsControllerCompat;I)V:GetOnControllableInsetsChanged_Landroidx_core_view_WindowInsetsControllerCompat_IHandler:AndroidX.Core.View.WindowInsetsControllerCompat+IOnControllableInsetsChangedListenerInvoker, Xamarin.AndroidX.Core\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.Core.View.WindowInsetsControllerCompat+IOnControllableInsetsChangedListenerImplementor, Xamarin.AndroidX.Core", WindowInsetsControllerCompat_OnControllableInsetsChangedListenerImplementor.class, __md_methods);
-	}
 
 	public WindowInsetsControllerCompat_OnControllableInsetsChangedListenerImplementor ()
 	{

@@ -7,14 +7,6 @@ public class BaseOnChangeListenerImplementor
 		mono.android.IGCUserPeer,
 		com.google.android.material.slider.BaseOnChangeListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onValueChange:(Ljava/lang/Object;FZ)V:GetOnValueChange_Ljava_lang_Object_FZHandler:Google.Android.Material.Slider.IBaseOnChangeListenerInvoker, Xamarin.Google.Android.Material\n" +
-			"";
-		mono.android.Runtime.register ("Google.Android.Material.Slider.IBaseOnChangeListenerImplementor, Xamarin.Google.Android.Material", BaseOnChangeListenerImplementor.class, __md_methods);
-	}
 
 	public BaseOnChangeListenerImplementor ()
 	{

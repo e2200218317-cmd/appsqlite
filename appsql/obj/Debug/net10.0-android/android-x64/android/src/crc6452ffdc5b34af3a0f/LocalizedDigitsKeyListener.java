@@ -6,16 +6,6 @@ public class LocalizedDigitsKeyListener
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_getInputType:()I:GetGetInputTypeHandler\n" +
-			"n_getAcceptedChars:()[C:GetGetAcceptedCharsHandler\n" +
-			"n_filter:(Ljava/lang/CharSequence;IILandroid/text/Spanned;II)Ljava/lang/CharSequence;:GetFilter_Ljava_lang_CharSequence_IILandroid_text_Spanned_IIHandler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Platform.LocalizedDigitsKeyListener, Microsoft.Maui", LocalizedDigitsKeyListener.class, __md_methods);
-	}
 
 	public LocalizedDigitsKeyListener ()
 	{

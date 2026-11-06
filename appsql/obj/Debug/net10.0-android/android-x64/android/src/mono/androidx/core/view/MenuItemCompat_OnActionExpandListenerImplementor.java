@@ -7,15 +7,6 @@ public class MenuItemCompat_OnActionExpandListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.core.view.MenuItemCompat.OnActionExpandListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onMenuItemActionCollapse:(Landroid/view/MenuItem;)Z:GetOnMenuItemActionCollapse_Landroid_view_MenuItem_Handler:AndroidX.Core.View.MenuItemCompat+IOnActionExpandListenerInvoker, Xamarin.AndroidX.Core\n" +
-			"n_onMenuItemActionExpand:(Landroid/view/MenuItem;)Z:GetOnMenuItemActionExpand_Landroid_view_MenuItem_Handler:AndroidX.Core.View.MenuItemCompat+IOnActionExpandListenerInvoker, Xamarin.AndroidX.Core\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.Core.View.MenuItemCompat+IOnActionExpandListenerImplementor, Xamarin.AndroidX.Core", MenuItemCompat_OnActionExpandListenerImplementor.class, __md_methods);
-	}
 
 	public MenuItemCompat_OnActionExpandListenerImplementor ()
 	{

@@ -7,15 +7,6 @@ public class RequestListenerImplementor
 		mono.android.IGCUserPeer,
 		com.bumptech.glide.request.RequestListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onLoadFailed:(Lcom/bumptech/glide/load/engine/GlideException;Ljava/lang/Object;Lcom/bumptech/glide/request/target/Target;Z)Z:GetOnLoadFailed_Lcom_bumptech_glide_load_engine_GlideException_Ljava_lang_Object_Lcom_bumptech_glide_request_target_Target_ZHandler:Bumptech.Glide.Request.IRequestListenerInvoker, Xamarin.Android.Glide\n" +
-			"n_onResourceReady:(Ljava/lang/Object;Ljava/lang/Object;Lcom/bumptech/glide/request/target/Target;Lcom/bumptech/glide/load/DataSource;Z)Z:GetOnResourceReady_Ljava_lang_Object_Ljava_lang_Object_Lcom_bumptech_glide_request_target_Target_Lcom_bumptech_glide_load_DataSource_ZHandler:Bumptech.Glide.Request.IRequestListenerInvoker, Xamarin.Android.Glide\n" +
-			"";
-		mono.android.Runtime.register ("Bumptech.Glide.Request.IRequestListenerImplementor, Xamarin.Android.Glide", RequestListenerImplementor.class, __md_methods);
-	}
 
 	public RequestListenerImplementor ()
 	{

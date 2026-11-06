@@ -6,15 +6,6 @@ public class PlatformGraphicsView
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_draw:(Landroid/graphics/Canvas;)V:GetDraw_Landroid_graphics_Canvas_Handler\n" +
-			"n_onSizeChanged:(IIII)V:GetOnSizeChanged_IIIIHandler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Graphics.Platform.PlatformGraphicsView, Microsoft.Maui.Graphics", PlatformGraphicsView.class, __md_methods);
-	}
 
 	public PlatformGraphicsView (android.content.Context p0, android.util.AttributeSet p1, int p2, int p3)
 	{

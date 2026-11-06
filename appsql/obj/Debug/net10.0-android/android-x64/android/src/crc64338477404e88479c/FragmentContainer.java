@@ -6,16 +6,6 @@ public class FragmentContainer
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onCreateView:(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;:GetOnCreateView_Landroid_view_LayoutInflater_Landroid_view_ViewGroup_Landroid_os_Bundle_Handler\n" +
-			"n_onDestroy:()V:GetOnDestroyHandler\n" +
-			"n_onResume:()V:GetOnResumeHandler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Platform.FragmentContainer, Microsoft.Maui.Controls", FragmentContainer.class, __md_methods);
-	}
 
 	public FragmentContainer ()
 	{

@@ -6,17 +6,6 @@ public class MauiMaterialButton
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_getIconGravity:()I:GetGetIconGravityHandler\n" +
-			"n_setIconGravity:(I)V:GetSetIconGravity_IHandler\n" +
-			"n_onMeasure:(II)V:GetOnMeasure_IIHandler\n" +
-			"n_onLayout:(ZIIII)V:GetOnLayout_ZIIIIHandler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Platform.MauiMaterialButton, Microsoft.Maui", MauiMaterialButton.class, __md_methods);
-	}
 
 	public MauiMaterialButton (android.content.Context p0)
 	{

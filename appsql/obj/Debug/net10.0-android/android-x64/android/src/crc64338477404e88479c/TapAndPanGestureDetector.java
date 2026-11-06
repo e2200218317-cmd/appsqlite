@@ -6,14 +6,6 @@ public class TapAndPanGestureDetector
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onTouchEvent:(Landroid/view/MotionEvent;)Z:GetOnTouchEvent_Landroid_view_MotionEvent_Handler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Platform.TapAndPanGestureDetector, Microsoft.Maui.Controls", TapAndPanGestureDetector.class, __md_methods);
-	}
 
 	public TapAndPanGestureDetector (android.content.Context p0, android.view.GestureDetector.OnGestureListener p1, android.os.Handler p2, boolean p3)
 	{

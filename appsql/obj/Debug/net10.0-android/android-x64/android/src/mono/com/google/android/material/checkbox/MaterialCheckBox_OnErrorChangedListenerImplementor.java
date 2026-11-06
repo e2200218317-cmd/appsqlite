@@ -7,14 +7,6 @@ public class MaterialCheckBox_OnErrorChangedListenerImplementor
 		mono.android.IGCUserPeer,
 		com.google.android.material.checkbox.MaterialCheckBox.OnErrorChangedListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onErrorChanged:(Lcom/google/android/material/checkbox/MaterialCheckBox;Z)V:GetOnErrorChanged_Lcom_google_android_material_checkbox_MaterialCheckBox_ZHandler:Google.Android.Material.CheckBox.MaterialCheckBox+IOnErrorChangedListenerInvoker, Xamarin.Google.Android.Material\n" +
-			"";
-		mono.android.Runtime.register ("Google.Android.Material.CheckBox.MaterialCheckBox+IOnErrorChangedListenerImplementor, Xamarin.Google.Android.Material", MaterialCheckBox_OnErrorChangedListenerImplementor.class, __md_methods);
-	}
 
 	public MaterialCheckBox_OnErrorChangedListenerImplementor ()
 	{

@@ -7,14 +7,6 @@ public class OnMaskChangedListenerImplementor
 		mono.android.IGCUserPeer,
 		com.google.android.material.carousel.OnMaskChangedListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onMaskChanged:(Landroid/graphics/RectF;)V:GetOnMaskChanged_Landroid_graphics_RectF_Handler:Google.Android.Material.Carousel.IOnMaskChangedListenerInvoker, Xamarin.Google.Android.Material\n" +
-			"";
-		mono.android.Runtime.register ("Google.Android.Material.Carousel.IOnMaskChangedListenerImplementor, Xamarin.Google.Android.Material", OnMaskChangedListenerImplementor.class, __md_methods);
-	}
 
 	public OnMaskChangedListenerImplementor ()
 	{

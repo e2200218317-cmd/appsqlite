@@ -6,15 +6,6 @@ public class SelectableItemsViewAdapter_2
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onBindViewHolder:(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V:GetOnBindViewHolder_Landroidx_recyclerview_widget_RecyclerView_ViewHolder_IHandler\n" +
-			"n_onViewRecycled:(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V:GetOnViewRecycled_Landroidx_recyclerview_widget_RecyclerView_ViewHolder_Handler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Handlers.Items.SelectableItemsViewAdapter`2, Microsoft.Maui.Controls", SelectableItemsViewAdapter_2.class, __md_methods);
-	}
 
 	public SelectableItemsViewAdapter_2 ()
 	{

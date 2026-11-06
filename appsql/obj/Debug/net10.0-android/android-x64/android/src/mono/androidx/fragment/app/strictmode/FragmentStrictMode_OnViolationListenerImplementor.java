@@ -7,14 +7,6 @@ public class FragmentStrictMode_OnViolationListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.fragment.app.strictmode.FragmentStrictMode.OnViolationListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onViolation:(Landroidx/fragment/app/strictmode/Violation;)V:GetOnViolation_Landroidx_fragment_app_strictmode_Violation_Handler:AndroidX.Fragment.App.StrictMode.FragmentStrictMode+IOnViolationListenerInvoker, Xamarin.AndroidX.Fragment\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.Fragment.App.StrictMode.FragmentStrictMode+IOnViolationListenerImplementor, Xamarin.AndroidX.Fragment", FragmentStrictMode_OnViolationListenerImplementor.class, __md_methods);
-	}
 
 	public FragmentStrictMode_OnViolationListenerImplementor ()
 	{

@@ -7,17 +7,6 @@ public class MotionLayout_TransitionListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.constraintlayout.motion.widget.MotionLayout.TransitionListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onTransitionChange:(Landroidx/constraintlayout/motion/widget/MotionLayout;IIF)V:GetOnTransitionChange_Landroidx_constraintlayout_motion_widget_MotionLayout_IIFHandler:AndroidX.ConstraintLayout.Motion.Widget.MotionLayout+ITransitionListenerInvoker, Xamarin.AndroidX.ConstraintLayout\n" +
-			"n_onTransitionCompleted:(Landroidx/constraintlayout/motion/widget/MotionLayout;I)V:GetOnTransitionCompleted_Landroidx_constraintlayout_motion_widget_MotionLayout_IHandler:AndroidX.ConstraintLayout.Motion.Widget.MotionLayout+ITransitionListenerInvoker, Xamarin.AndroidX.ConstraintLayout\n" +
-			"n_onTransitionStarted:(Landroidx/constraintlayout/motion/widget/MotionLayout;II)V:GetOnTransitionStarted_Landroidx_constraintlayout_motion_widget_MotionLayout_IIHandler:AndroidX.ConstraintLayout.Motion.Widget.MotionLayout+ITransitionListenerInvoker, Xamarin.AndroidX.ConstraintLayout\n" +
-			"n_onTransitionTrigger:(Landroidx/constraintlayout/motion/widget/MotionLayout;IZF)V:GetOnTransitionTrigger_Landroidx_constraintlayout_motion_widget_MotionLayout_IZFHandler:AndroidX.ConstraintLayout.Motion.Widget.MotionLayout+ITransitionListenerInvoker, Xamarin.AndroidX.ConstraintLayout\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.ConstraintLayout.Motion.Widget.MotionLayout+ITransitionListenerImplementor, Xamarin.AndroidX.ConstraintLayout", MotionLayout_TransitionListenerImplementor.class, __md_methods);
-	}
 
 	public MotionLayout_TransitionListenerImplementor ()
 	{

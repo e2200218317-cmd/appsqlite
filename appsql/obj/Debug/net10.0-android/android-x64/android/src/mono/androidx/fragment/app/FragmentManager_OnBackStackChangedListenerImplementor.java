@@ -7,18 +7,6 @@ public class FragmentManager_OnBackStackChangedListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.fragment.app.FragmentManager.OnBackStackChangedListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onBackStackChanged:()V:GetOnBackStackChangedHandler:AndroidX.Fragment.App.FragmentManager+IOnBackStackChangedListenerInvoker, Xamarin.AndroidX.Fragment\n" +
-			"n_onBackStackChangeCancelled:()V:GetOnBackStackChangeCancelledHandler:AndroidX.Fragment.App.FragmentManager+IOnBackStackChangedListener, Xamarin.AndroidX.Fragment\n" +
-			"n_onBackStackChangeCommitted:(Landroidx/fragment/app/Fragment;Z)V:GetOnBackStackChangeCommitted_Landroidx_fragment_app_Fragment_ZHandler:AndroidX.Fragment.App.FragmentManager+IOnBackStackChangedListener, Xamarin.AndroidX.Fragment\n" +
-			"n_onBackStackChangeProgressed:(Landroidx/activity/BackEventCompat;)V:GetOnBackStackChangeProgressed_Landroidx_activity_BackEventCompat_Handler:AndroidX.Fragment.App.FragmentManager+IOnBackStackChangedListener, Xamarin.AndroidX.Fragment\n" +
-			"n_onBackStackChangeStarted:(Landroidx/fragment/app/Fragment;Z)V:GetOnBackStackChangeStarted_Landroidx_fragment_app_Fragment_ZHandler:AndroidX.Fragment.App.FragmentManager+IOnBackStackChangedListener, Xamarin.AndroidX.Fragment\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.Fragment.App.FragmentManager+IOnBackStackChangedListenerImplementor, Xamarin.AndroidX.Fragment", FragmentManager_OnBackStackChangedListenerImplementor.class, __md_methods);
-	}
 
 	public FragmentManager_OnBackStackChangedListenerImplementor ()
 	{

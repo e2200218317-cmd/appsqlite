@@ -7,18 +7,6 @@ public class MauiWindowInsetListener
 		mono.android.IGCUserPeer,
 		androidx.core.view.OnApplyWindowInsetsListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onPrepare:(Landroidx/core/view/WindowInsetsAnimationCompat;)V:GetOnPrepare_Landroidx_core_view_WindowInsetsAnimationCompat_Handler\n" +
-			"n_onStart:(Landroidx/core/view/WindowInsetsAnimationCompat;Landroidx/core/view/WindowInsetsAnimationCompat$BoundsCompat;)Landroidx/core/view/WindowInsetsAnimationCompat$BoundsCompat;:GetOnStart_Landroidx_core_view_WindowInsetsAnimationCompat_Landroidx_core_view_WindowInsetsAnimationCompat_BoundsCompat_Handler\n" +
-			"n_onProgress:(Landroidx/core/view/WindowInsetsCompat;Ljava/util/List;)Landroidx/core/view/WindowInsetsCompat;:GetOnProgress_Landroidx_core_view_WindowInsetsCompat_Ljava_util_List_Handler\n" +
-			"n_onEnd:(Landroidx/core/view/WindowInsetsAnimationCompat;)V:GetOnEnd_Landroidx_core_view_WindowInsetsAnimationCompat_Handler\n" +
-			"n_onApplyWindowInsets:(Landroid/view/View;Landroidx/core/view/WindowInsetsCompat;)Landroidx/core/view/WindowInsetsCompat;:GetOnApplyWindowInsets_Landroid_view_View_Landroidx_core_view_WindowInsetsCompat_Handler:AndroidX.Core.View.IOnApplyWindowInsetsListenerInvoker, Xamarin.AndroidX.Core\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Platform.MauiWindowInsetListener, Microsoft.Maui", MauiWindowInsetListener.class, __md_methods);
-	}
 
 	public MauiWindowInsetListener (int p0)
 	{

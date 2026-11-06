@@ -6,18 +6,6 @@ public class ShellFlyoutRecyclerAdapter
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_getItemCount:()I:GetGetItemCountHandler\n" +
-			"n_getItemViewType:(I)I:GetGetItemViewType_IHandler\n" +
-			"n_onViewRecycled:(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V:GetOnViewRecycled_Landroidx_recyclerview_widget_RecyclerView_ViewHolder_Handler\n" +
-			"n_onBindViewHolder:(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V:GetOnBindViewHolder_Landroidx_recyclerview_widget_RecyclerView_ViewHolder_IHandler\n" +
-			"n_onCreateViewHolder:(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;:GetOnCreateViewHolder_Landroid_view_ViewGroup_IHandler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Platform.Compatibility.ShellFlyoutRecyclerAdapter, Microsoft.Maui.Controls", ShellFlyoutRecyclerAdapter.class, __md_methods);
-	}
 
 	public ShellFlyoutRecyclerAdapter ()
 	{

@@ -6,14 +6,6 @@ public class MauiHybridWebViewClient
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_shouldInterceptRequest:(Landroid/webkit/WebView;Landroid/webkit/WebResourceRequest;)Landroid/webkit/WebResourceResponse;:GetShouldInterceptRequest_Landroid_webkit_WebView_Landroid_webkit_WebResourceRequest_Handler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Platform.MauiHybridWebViewClient, Microsoft.Maui", MauiHybridWebViewClient.class, __md_methods);
-	}
 
 	public MauiHybridWebViewClient ()
 	{

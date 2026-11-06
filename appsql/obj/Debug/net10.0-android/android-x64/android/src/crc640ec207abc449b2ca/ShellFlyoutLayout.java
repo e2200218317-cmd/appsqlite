@@ -6,14 +6,6 @@ public class ShellFlyoutLayout
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onLayout:(ZIIII)V:GetOnLayout_ZIIIIHandler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Platform.Compatibility.ShellFlyoutLayout, Microsoft.Maui.Controls", ShellFlyoutLayout.class, __md_methods);
-	}
 
 	public ShellFlyoutLayout (android.content.Context p0)
 	{

@@ -7,14 +7,6 @@ public class NavigationBarView_OnItemSelectedListenerImplementor
 		mono.android.IGCUserPeer,
 		com.google.android.material.navigation.NavigationBarView.OnItemSelectedListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onNavigationItemSelected:(Landroid/view/MenuItem;)Z:GetOnNavigationItemSelected_Landroid_view_MenuItem_Handler:Google.Android.Material.Navigation.NavigationBarView+IOnItemSelectedListenerInvoker, Xamarin.Google.Android.Material\n" +
-			"";
-		mono.android.Runtime.register ("Google.Android.Material.Navigation.NavigationBarView+IOnItemSelectedListenerImplementor, Xamarin.Google.Android.Material", NavigationBarView_OnItemSelectedListenerImplementor.class, __md_methods);
-	}
 
 	public NavigationBarView_OnItemSelectedListenerImplementor ()
 	{

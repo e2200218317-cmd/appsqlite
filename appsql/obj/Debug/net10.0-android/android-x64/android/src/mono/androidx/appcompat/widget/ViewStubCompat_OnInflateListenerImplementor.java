@@ -7,14 +7,6 @@ public class ViewStubCompat_OnInflateListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.appcompat.widget.ViewStubCompat.OnInflateListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onInflate:(Landroidx/appcompat/widget/ViewStubCompat;Landroid/view/View;)V:GetOnInflate_Landroidx_appcompat_widget_ViewStubCompat_Landroid_view_View_Handler:AndroidX.AppCompat.Widget.ViewStubCompat+IOnInflateListenerInvoker, Xamarin.AndroidX.AppCompat\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.AppCompat.Widget.ViewStubCompat+IOnInflateListenerImplementor, Xamarin.AndroidX.AppCompat", ViewStubCompat_OnInflateListenerImplementor.class, __md_methods);
-	}
 
 	public ViewStubCompat_OnInflateListenerImplementor ()
 	{

@@ -9,19 +9,6 @@ public class TabbedPageManager_Listeners
 		com.google.android.material.navigation.NavigationBarView.OnItemSelectedListener,
 		com.google.android.material.tabs.TabLayoutMediator.TabConfigurationStrategy
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onPageSelected:(I)V:GetOnPageSelected_IHandler\n" +
-			"n_onTabReselected:(Lcom/google/android/material/tabs/TabLayout$Tab;)V:GetOnTabReselected_Lcom_google_android_material_tabs_TabLayout_Tab_Handler:Google.Android.Material.Tabs.TabLayout+IOnTabSelectedListenerInvoker, Xamarin.Google.Android.Material\n" +
-			"n_onTabSelected:(Lcom/google/android/material/tabs/TabLayout$Tab;)V:GetOnTabSelected_Lcom_google_android_material_tabs_TabLayout_Tab_Handler:Google.Android.Material.Tabs.TabLayout+IOnTabSelectedListenerInvoker, Xamarin.Google.Android.Material\n" +
-			"n_onTabUnselected:(Lcom/google/android/material/tabs/TabLayout$Tab;)V:GetOnTabUnselected_Lcom_google_android_material_tabs_TabLayout_Tab_Handler:Google.Android.Material.Tabs.TabLayout+IOnTabSelectedListenerInvoker, Xamarin.Google.Android.Material\n" +
-			"n_onNavigationItemSelected:(Landroid/view/MenuItem;)Z:GetOnNavigationItemSelected_Landroid_view_MenuItem_Handler:Google.Android.Material.Navigation.NavigationBarView+IOnItemSelectedListenerInvoker, Xamarin.Google.Android.Material\n" +
-			"n_onConfigureTab:(Lcom/google/android/material/tabs/TabLayout$Tab;I)V:GetOnConfigureTab_Lcom_google_android_material_tabs_TabLayout_Tab_IHandler:Google.Android.Material.Tabs.TabLayoutMediator+ITabConfigurationStrategyInvoker, Xamarin.Google.Android.Material\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Handlers.TabbedPageManager+Listeners, Microsoft.Maui.Controls", TabbedPageManager_Listeners.class, __md_methods);
-	}
 
 	public TabbedPageManager_Listeners ()
 	{

@@ -6,15 +6,6 @@ public abstract class VisualElementRenderer_1
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onLayout:(ZIIII)V:GetOnLayout_ZIIIIHandler\n" +
-			"n_onMeasure:(II)V:GetOnMeasure_IIHandler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Handlers.Compatibility.VisualElementRenderer`1, Microsoft.Maui.Controls", VisualElementRenderer_1.class, __md_methods);
-	}
 
 	public VisualElementRenderer_1 (android.content.Context p0, android.util.AttributeSet p1, int p2, int p3)
 	{

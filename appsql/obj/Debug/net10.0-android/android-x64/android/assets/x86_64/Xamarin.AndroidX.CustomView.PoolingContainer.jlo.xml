@@ -8,7 +8,7 @@
         <constructor name="PoolingContainerListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
       </constructors>
       <methods>
-        <method name="onRelease" method="n_onRelease:()V:GetOnReleaseHandler:AndroidX.CustomView.PoolingContainer.IPoolingContainerListenerInvoker, Xamarin.AndroidX.CustomView.PoolingContainer" jni_signature="()V" retval="void" is_dynamically_registered="True" />
+        <method name="onRelease" method="n_onRelease:()V:GetOnReleaseHandler:AndroidX.CustomView.PoolingContainer.IPoolingContainerListenerInvoker, Xamarin.AndroidX.CustomView.PoolingContainer" jni_signature="()V" retval="void" />
       </methods>
     </type>
   </jcw-types>

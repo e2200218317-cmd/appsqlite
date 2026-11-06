@@ -7,15 +7,6 @@ public class SwipeDismissBehavior_OnDismissListenerImplementor
 		mono.android.IGCUserPeer,
 		com.google.android.material.behavior.SwipeDismissBehavior.OnDismissListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onDismiss:(Landroid/view/View;)V:GetOnDismiss_Landroid_view_View_Handler:Google.Android.Material.Behavior.SwipeDismissBehavior+IOnDismissListenerInvoker, Xamarin.Google.Android.Material\n" +
-			"n_onDragStateChanged:(I)V:GetOnDragStateChanged_IHandler:Google.Android.Material.Behavior.SwipeDismissBehavior+IOnDismissListenerInvoker, Xamarin.Google.Android.Material\n" +
-			"";
-		mono.android.Runtime.register ("Google.Android.Material.Behavior.SwipeDismissBehavior+IOnDismissListenerImplementor, Xamarin.Google.Android.Material", SwipeDismissBehavior_OnDismissListenerImplementor.class, __md_methods);
-	}
 
 	public SwipeDismissBehavior_OnDismissListenerImplementor ()
 	{

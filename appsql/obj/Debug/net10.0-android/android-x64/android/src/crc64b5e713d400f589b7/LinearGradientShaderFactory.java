@@ -6,14 +6,6 @@ public class LinearGradientShaderFactory
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_resize:(II)Landroid/graphics/Shader;:GetResize_IIHandler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Graphics.LinearGradientShaderFactory, Microsoft.Maui", LinearGradientShaderFactory.class, __md_methods);
-	}
 
 	public LinearGradientShaderFactory ()
 	{

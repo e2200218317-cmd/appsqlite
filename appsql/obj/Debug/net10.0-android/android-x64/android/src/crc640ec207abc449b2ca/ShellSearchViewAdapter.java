@@ -7,18 +7,6 @@ public class ShellSearchViewAdapter
 		mono.android.IGCUserPeer,
 		android.widget.Filterable
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_getCount:()I:GetGetCountHandler\n" +
-			"n_getItem:(I)Ljava/lang/Object;:GetGetItem_IHandler\n" +
-			"n_getItemId:(I)J:GetGetItemId_IHandler\n" +
-			"n_getView:(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;:GetGetView_ILandroid_view_View_Landroid_view_ViewGroup_Handler\n" +
-			"n_getFilter:()Landroid/widget/Filter;:GetGetFilterHandler:Android.Widget.IFilterableInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Platform.Compatibility.ShellSearchViewAdapter, Microsoft.Maui.Controls", ShellSearchViewAdapter.class, __md_methods);
-	}
 
 	public ShellSearchViewAdapter ()
 	{

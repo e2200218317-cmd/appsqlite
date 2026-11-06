@@ -6,14 +6,6 @@ public abstract class NongreedySnapHelper
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_attachToRecyclerView:(Landroidx/recyclerview/widget/RecyclerView;)V:GetAttachToRecyclerView_Landroidx_recyclerview_widget_RecyclerView_Handler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Handlers.Items.NongreedySnapHelper, Microsoft.Maui.Controls", NongreedySnapHelper.class, __md_methods);
-	}
 
 	public NongreedySnapHelper ()
 	{

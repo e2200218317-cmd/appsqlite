@@ -6,16 +6,6 @@ public class IntermediateActivity
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
-			"n_onSaveInstanceState:(Landroid/os/Bundle;)V:GetOnSaveInstanceState_Landroid_os_Bundle_Handler\n" +
-			"n_onActivityResult:(IILandroid/content/Intent;)V:GetOnActivityResult_IILandroid_content_Intent_Handler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.ApplicationModel.IntermediateActivity, Microsoft.Maui.Essentials", IntermediateActivity.class, __md_methods);
-	}
 
 	public IntermediateActivity ()
 	{

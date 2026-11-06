@@ -6,15 +6,6 @@ public class CustomTabsClient_CustomTabsCallbackImpl
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onNavigationEvent:(ILandroid/os/Bundle;)V:GetOnNavigationEvent_ILandroid_os_Bundle_Handler\n" +
-			"n_extraCallback:(Ljava/lang/String;Landroid/os/Bundle;)V:GetExtraCallback_Ljava_lang_String_Landroid_os_Bundle_Handler\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.Browser.CustomTabs.CustomTabsClient+CustomTabsCallbackImpl, Xamarin.AndroidX.Browser", CustomTabsClient_CustomTabsCallbackImpl.class, __md_methods);
-	}
 
 	public CustomTabsClient_CustomTabsCallbackImpl ()
 	{

@@ -7,16 +7,6 @@ public class ViewPager_OnPageChangeListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.viewpager.widget.ViewPager.OnPageChangeListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onPageScrollStateChanged:(I)V:GetOnPageScrollStateChanged_IHandler:AndroidX.ViewPager.Widget.ViewPager+IOnPageChangeListenerInvoker, Xamarin.AndroidX.ViewPager\n" +
-			"n_onPageScrolled:(IFI)V:GetOnPageScrolled_IFIHandler:AndroidX.ViewPager.Widget.ViewPager+IOnPageChangeListenerInvoker, Xamarin.AndroidX.ViewPager\n" +
-			"n_onPageSelected:(I)V:GetOnPageSelected_IHandler:AndroidX.ViewPager.Widget.ViewPager+IOnPageChangeListenerInvoker, Xamarin.AndroidX.ViewPager\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.ViewPager.Widget.ViewPager+IOnPageChangeListenerImplementor, Xamarin.AndroidX.ViewPager", ViewPager_OnPageChangeListenerImplementor.class, __md_methods);
-	}
 
 	public ViewPager_OnPageChangeListenerImplementor ()
 	{

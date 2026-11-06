@@ -7,14 +7,6 @@ public class HideBottomViewOnScrollBehavior_OnScrollStateChangedListenerImplemen
 		mono.android.IGCUserPeer,
 		com.google.android.material.behavior.HideBottomViewOnScrollBehavior.OnScrollStateChangedListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onStateChanged:(Landroid/view/View;I)V:GetOnStateChanged_Landroid_view_View_IHandler:Google.Android.Material.Behavior.HideBottomViewOnScrollBehavior+IOnScrollStateChangedListenerInvoker, Xamarin.Google.Android.Material\n" +
-			"";
-		mono.android.Runtime.register ("Google.Android.Material.Behavior.HideBottomViewOnScrollBehavior+IOnScrollStateChangedListenerImplementor, Xamarin.Google.Android.Material", HideBottomViewOnScrollBehavior_OnScrollStateChangedListenerImplementor.class, __md_methods);
-	}
 
 	public HideBottomViewOnScrollBehavior_OnScrollStateChangedListenerImplementor ()
 	{

@@ -7,14 +7,6 @@ public class PointerGestureHandler
 		mono.android.IGCUserPeer,
 		android.view.View.OnHoverListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onHover:(Landroid/view/View;Landroid/view/MotionEvent;)Z:GetOnHover_Landroid_view_View_Landroid_view_MotionEvent_Handler:Android.Views.View+IOnHoverListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Platform.PointerGestureHandler, Microsoft.Maui.Controls", PointerGestureHandler.class, __md_methods);
-	}
 
 	public PointerGestureHandler ()
 	{

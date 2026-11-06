@@ -7,14 +7,6 @@ public class DragStartHelper_OnDragStartListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.core.view.DragStartHelper.OnDragStartListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onDragStart:(Landroid/view/View;Landroidx/core/view/DragStartHelper;)Z:GetOnDragStart_Landroid_view_View_Landroidx_core_view_DragStartHelper_Handler:AndroidX.Core.View.DragStartHelper+IOnDragStartListenerInvoker, Xamarin.AndroidX.Core\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.Core.View.DragStartHelper+IOnDragStartListenerImplementor, Xamarin.AndroidX.Core", DragStartHelper_OnDragStartListenerImplementor.class, __md_methods);
-	}
 
 	public DragStartHelper_OnDragStartListenerImplementor ()
 	{

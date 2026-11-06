@@ -7,14 +7,6 @@ public class AlertDialog_IDialogInterfaceOnClickListenerImplementor
 		mono.android.IGCUserPeer,
 		android.content.DialogInterface.OnClickListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onClick:(Landroid/content/DialogInterface;I)V:GetOnClick_Landroid_content_DialogInterface_IHandler:Android.Content.IDialogInterfaceOnClickListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.AppCompat.App.AlertDialog+IDialogInterfaceOnClickListenerImplementor, Xamarin.AndroidX.AppCompat", AlertDialog_IDialogInterfaceOnClickListenerImplementor.class, __md_methods);
-	}
 
 	public AlertDialog_IDialogInterfaceOnClickListenerImplementor ()
 	{

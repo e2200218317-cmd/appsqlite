@@ -6,17 +6,6 @@ public class ListViewRenderer_SwipeRefreshLayoutWithFixedNestedScrolling
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onInterceptTouchEvent:(Landroid/view/MotionEvent;)Z:GetOnInterceptTouchEvent_Landroid_view_MotionEvent_Handler\n" +
-			"n_onNestedScrollAccepted:(Landroid/view/View;Landroid/view/View;I)V:GetOnNestedScrollAccepted_Landroid_view_View_Landroid_view_View_IHandler\n" +
-			"n_onStopNestedScroll:(Landroid/view/View;)V:GetOnStopNestedScroll_Landroid_view_View_Handler\n" +
-			"n_onNestedScroll:(Landroid/view/View;IIII)V:GetOnNestedScroll_Landroid_view_View_IIIIHandler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Handlers.Compatibility.ListViewRenderer+SwipeRefreshLayoutWithFixedNestedScrolling, Microsoft.Maui.Controls", ListViewRenderer_SwipeRefreshLayoutWithFixedNestedScrolling.class, __md_methods);
-	}
 
 	public ListViewRenderer_SwipeRefreshLayoutWithFixedNestedScrolling (android.content.Context p0)
 	{

@@ -7,14 +7,6 @@ public class ClipboardChangeListener
 		mono.android.IGCUserPeer,
 		android.content.ClipboardManager.OnPrimaryClipChangedListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onPrimaryClipChanged:()V:GetOnPrimaryClipChangedHandler:Android.Content.ClipboardManager+IOnPrimaryClipChangedListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.ApplicationModel.DataTransfer.ClipboardChangeListener, Microsoft.Maui.Essentials", ClipboardChangeListener.class, __md_methods);
-	}
 
 	public ClipboardChangeListener ()
 	{

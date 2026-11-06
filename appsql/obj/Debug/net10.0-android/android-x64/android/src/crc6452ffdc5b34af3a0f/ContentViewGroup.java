@@ -6,19 +6,6 @@ public class ContentViewGroup
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onAttachedToWindow:()V:GetOnAttachedToWindowHandler\n" +
-			"n_onDetachedFromWindow:()V:GetOnDetachedFromWindowHandler\n" +
-			"n_onMeasure:(II)V:GetOnMeasure_IIHandler\n" +
-			"n_onLayout:(ZIIII)V:GetOnLayout_ZIIIIHandler\n" +
-			"n_onConfigurationChanged:(Landroid/content/res/Configuration;)V:GetOnConfigurationChanged_Landroid_content_res_Configuration_Handler\n" +
-			"n_getClipPath:(II)Landroid/graphics/Path;:GetGetClipPath_IIHandler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Platform.ContentViewGroup, Microsoft.Maui", ContentViewGroup.class, __md_methods);
-	}
 
 	public ContentViewGroup (android.content.Context p0)
 	{

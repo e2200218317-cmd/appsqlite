@@ -7,14 +7,6 @@ public abstract class ImageLoaderCallbackBase_1
 		mono.android.IGCUserPeer,
 		com.microsoft.maui.ImageLoaderCallback
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onComplete:(Ljava/lang/Boolean;Landroid/graphics/drawable/Drawable;Ljava/lang/Runnable;)V:GetOnComplete_Ljava_lang_Boolean_Landroid_graphics_drawable_Drawable_Ljava_lang_Runnable_Handler:Microsoft.Maui.IImageLoaderCallbackInvoker, Microsoft.Maui\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.ImageLoaderCallbackBase`1, Microsoft.Maui", ImageLoaderCallbackBase_1.class, __md_methods);
-	}
 
 	public ImageLoaderCallbackBase_1 ()
 	{

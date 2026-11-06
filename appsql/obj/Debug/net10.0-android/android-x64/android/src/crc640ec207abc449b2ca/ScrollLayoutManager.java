@@ -6,14 +6,6 @@ public class ScrollLayoutManager
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_canScrollVertically:()Z:GetCanScrollVerticallyHandler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Platform.Compatibility.ScrollLayoutManager, Microsoft.Maui.Controls", ScrollLayoutManager.class, __md_methods);
-	}
 
 	public ScrollLayoutManager (android.content.Context p0)
 	{

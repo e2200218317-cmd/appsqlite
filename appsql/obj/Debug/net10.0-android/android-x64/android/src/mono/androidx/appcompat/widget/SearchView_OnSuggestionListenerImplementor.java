@@ -7,15 +7,6 @@ public class SearchView_OnSuggestionListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.appcompat.widget.SearchView.OnSuggestionListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onSuggestionClick:(I)Z:GetOnSuggestionClick_IHandler:AndroidX.AppCompat.Widget.SearchView+IOnSuggestionListenerInvoker, Xamarin.AndroidX.AppCompat\n" +
-			"n_onSuggestionSelect:(I)Z:GetOnSuggestionSelect_IHandler:AndroidX.AppCompat.Widget.SearchView+IOnSuggestionListenerInvoker, Xamarin.AndroidX.AppCompat\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.AppCompat.Widget.SearchView+IOnSuggestionListenerImplementor, Xamarin.AndroidX.AppCompat", SearchView_OnSuggestionListenerImplementor.class, __md_methods);
-	}
 
 	public SearchView_OnSuggestionListenerImplementor ()
 	{

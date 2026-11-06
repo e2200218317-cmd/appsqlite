@@ -6,18 +6,6 @@ public class ViewCellRenderer_ViewCellContainer
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onInterceptTouchEvent:(Landroid/view/MotionEvent;)Z:GetOnInterceptTouchEvent_Landroid_view_MotionEvent_Handler\n" +
-			"n_dispatchTouchEvent:(Landroid/view/MotionEvent;)Z:GetDispatchTouchEvent_Landroid_view_MotionEvent_Handler\n" +
-			"n_addView:(Landroid/view/View;)V:GetAddView_Landroid_view_View_Handler\n" +
-			"n_onLayout:(ZIIII)V:GetOnLayout_ZIIIIHandler\n" +
-			"n_onMeasure:(II)V:GetOnMeasure_IIHandler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Handlers.Compatibility.ViewCellRenderer+ViewCellContainer, Microsoft.Maui.Controls", ViewCellRenderer_ViewCellContainer.class, __md_methods);
-	}
 
 	public ViewCellRenderer_ViewCellContainer (android.content.Context p0, android.util.AttributeSet p1, int p2, int p3)
 	{

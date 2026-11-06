@@ -7,14 +7,6 @@ public class AlertDialog_IDialogInterfaceOnCancelListenerImplementor
 		mono.android.IGCUserPeer,
 		android.content.DialogInterface.OnCancelListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onCancel:(Landroid/content/DialogInterface;)V:GetOnCancel_Landroid_content_DialogInterface_Handler:Android.Content.IDialogInterfaceOnCancelListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.AppCompat.App.AlertDialog+IDialogInterfaceOnCancelListenerImplementor, Xamarin.AndroidX.AppCompat", AlertDialog_IDialogInterfaceOnCancelListenerImplementor.class, __md_methods);
-	}
 
 	public AlertDialog_IDialogInterfaceOnCancelListenerImplementor ()
 	{

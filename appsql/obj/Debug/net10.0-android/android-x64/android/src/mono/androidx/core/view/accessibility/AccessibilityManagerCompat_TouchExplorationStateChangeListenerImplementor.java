@@ -7,14 +7,6 @@ public class AccessibilityManagerCompat_TouchExplorationStateChangeListenerImple
 		mono.android.IGCUserPeer,
 		androidx.core.view.accessibility.AccessibilityManagerCompat.TouchExplorationStateChangeListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onTouchExplorationStateChanged:(Z)V:GetOnTouchExplorationStateChanged_ZHandler:AndroidX.Core.View.Accessibility.AccessibilityManagerCompat+ITouchExplorationStateChangeListenerInvoker, Xamarin.AndroidX.Core\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.Core.View.Accessibility.AccessibilityManagerCompat+ITouchExplorationStateChangeListenerImplementor, Xamarin.AndroidX.Core", AccessibilityManagerCompat_TouchExplorationStateChangeListenerImplementor.class, __md_methods);
-	}
 
 	public AccessibilityManagerCompat_TouchExplorationStateChangeListenerImplementor ()
 	{

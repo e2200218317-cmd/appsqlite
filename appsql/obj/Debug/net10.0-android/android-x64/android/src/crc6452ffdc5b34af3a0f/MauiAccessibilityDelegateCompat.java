@@ -6,14 +6,6 @@ public class MauiAccessibilityDelegateCompat
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onInitializeAccessibilityNodeInfo:(Landroid/view/View;Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;)V:GetOnInitializeAccessibilityNodeInfo_Landroid_view_View_Landroidx_core_view_accessibility_AccessibilityNodeInfoCompat_Handler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Platform.MauiAccessibilityDelegateCompat, Microsoft.Maui", MauiAccessibilityDelegateCompat.class, __md_methods);
-	}
 
 	public MauiAccessibilityDelegateCompat ()
 	{

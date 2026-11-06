@@ -7,14 +7,6 @@ public class WebViewExtensions_JavascriptResult
 		mono.android.IGCUserPeer,
 		android.webkit.ValueCallback
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onReceiveValue:(Ljava/lang/Object;)V:GetOnReceiveValue_Ljava_lang_Object_Handler:Android.Webkit.IValueCallbackInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Platform.WebViewExtensions+JavascriptResult, Microsoft.Maui", WebViewExtensions_JavascriptResult.class, __md_methods);
-	}
 
 	public WebViewExtensions_JavascriptResult ()
 	{

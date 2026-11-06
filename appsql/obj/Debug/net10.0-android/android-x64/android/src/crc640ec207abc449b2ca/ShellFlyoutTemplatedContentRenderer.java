@@ -7,14 +7,6 @@ public class ShellFlyoutTemplatedContentRenderer
 		mono.android.IGCUserPeer,
 		com.google.android.material.appbar.AppBarLayout.OnOffsetChangedListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onOffsetChanged:(Lcom/google/android/material/appbar/AppBarLayout;I)V:GetOnOffsetChanged_Lcom_google_android_material_appbar_AppBarLayout_IHandler:Google.Android.Material.AppBar.AppBarLayout+IOnOffsetChangedListenerInvoker, Xamarin.Google.Android.Material\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Platform.Compatibility.ShellFlyoutTemplatedContentRenderer, Microsoft.Maui.Controls", ShellFlyoutTemplatedContentRenderer.class, __md_methods);
-	}
 
 	public ShellFlyoutTemplatedContentRenderer ()
 	{

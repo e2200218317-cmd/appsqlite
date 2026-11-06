@@ -8,15 +8,6 @@ public class TextToSpeechInternalImplementation
 		android.speech.tts.TextToSpeech.OnInitListener,
 		android.speech.tts.TextToSpeech.OnUtteranceCompletedListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onInit:(I)V:GetOnInit_IHandler:Android.Speech.Tts.TextToSpeech+IOnInitListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
-			"n_onUtteranceCompleted:(Ljava/lang/String;)V:GetOnUtteranceCompleted_Ljava_lang_String_Handler:Android.Speech.Tts.TextToSpeech+IOnUtteranceCompletedListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Media.TextToSpeechInternalImplementation, Microsoft.Maui.Essentials", TextToSpeechInternalImplementation.class, __md_methods);
-	}
 
 	public TextToSpeechInternalImplementation ()
 	{

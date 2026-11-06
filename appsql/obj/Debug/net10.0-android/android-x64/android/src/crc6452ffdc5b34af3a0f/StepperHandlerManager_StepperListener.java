@@ -7,14 +7,6 @@ public class StepperHandlerManager_StepperListener
 		mono.android.IGCUserPeer,
 		android.view.View.OnClickListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onClick:(Landroid/view/View;)V:GetOnClick_Landroid_view_View_Handler:Android.Views.View+IOnClickListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Platform.StepperHandlerManager+StepperListener, Microsoft.Maui", StepperHandlerManager_StepperListener.class, __md_methods);
-	}
 
 	public StepperHandlerManager_StepperListener ()
 	{

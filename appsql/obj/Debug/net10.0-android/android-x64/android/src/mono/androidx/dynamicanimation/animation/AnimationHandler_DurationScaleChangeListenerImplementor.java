@@ -7,15 +7,6 @@ public class AnimationHandler_DurationScaleChangeListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.dynamicanimation.animation.AnimationHandler.DurationScaleChangeListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_register:()Z:GetRegisterHandler:AndroidX.DynamicAnimation.AnimationHandler+IDurationScaleChangeListenerInvoker, Xamarin.AndroidX.DynamicAnimation\n" +
-			"n_unregister:()Z:GetUnregisterHandler:AndroidX.DynamicAnimation.AnimationHandler+IDurationScaleChangeListenerInvoker, Xamarin.AndroidX.DynamicAnimation\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.DynamicAnimation.AnimationHandler+IDurationScaleChangeListenerImplementor, Xamarin.AndroidX.DynamicAnimation", AnimationHandler_DurationScaleChangeListenerImplementor.class, __md_methods);
-	}
 
 	public AnimationHandler_DurationScaleChangeListenerImplementor ()
 	{

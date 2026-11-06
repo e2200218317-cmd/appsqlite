@@ -7,14 +7,6 @@ public class ButtonHandler_ButtonTouchListener
 		mono.android.IGCUserPeer,
 		android.view.View.OnTouchListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onTouch:(Landroid/view/View;Landroid/view/MotionEvent;)Z:GetOnTouch_Landroid_view_View_Landroid_view_MotionEvent_Handler:Android.Views.View+IOnTouchListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Handlers.ButtonHandler+ButtonTouchListener, Microsoft.Maui", ButtonHandler_ButtonTouchListener.class, __md_methods);
-	}
 
 	public ButtonHandler_ButtonTouchListener ()
 	{

@@ -7,16 +7,6 @@ public class TabLayout_BaseOnTabSelectedListenerImplementor
 		mono.android.IGCUserPeer,
 		com.google.android.material.tabs.TabLayout.BaseOnTabSelectedListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onTabReselected:(Lcom/google/android/material/tabs/TabLayout$Tab;)V:GetOnTabReselected_Lcom_google_android_material_tabs_TabLayout_Tab_Handler:Google.Android.Material.Tabs.TabLayout+IOnTabSelectedListenerInvoker, Xamarin.Google.Android.Material\n" +
-			"n_onTabSelected:(Lcom/google/android/material/tabs/TabLayout$Tab;)V:GetOnTabSelected_Lcom_google_android_material_tabs_TabLayout_Tab_Handler:Google.Android.Material.Tabs.TabLayout+IOnTabSelectedListenerInvoker, Xamarin.Google.Android.Material\n" +
-			"n_onTabUnselected:(Lcom/google/android/material/tabs/TabLayout$Tab;)V:GetOnTabUnselected_Lcom_google_android_material_tabs_TabLayout_Tab_Handler:Google.Android.Material.Tabs.TabLayout+IOnTabSelectedListenerInvoker, Xamarin.Google.Android.Material\n" +
-			"";
-		mono.android.Runtime.register ("Google.Android.Material.Tabs.TabLayout+IOnTabSelectedListenerImplementor, Xamarin.Google.Android.Material", TabLayout_BaseOnTabSelectedListenerImplementor.class, __md_methods);
-	}
 
 	public TabLayout_BaseOnTabSelectedListenerImplementor ()
 	{

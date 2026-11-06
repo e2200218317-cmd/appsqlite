@@ -7,14 +7,6 @@ public class ShellFlyoutTemplatedContentRenderer_WindowsListener
 		mono.android.IGCUserPeer,
 		androidx.core.view.OnApplyWindowInsetsListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onApplyWindowInsets:(Landroid/view/View;Landroidx/core/view/WindowInsetsCompat;)Landroidx/core/view/WindowInsetsCompat;:GetOnApplyWindowInsets_Landroid_view_View_Landroidx_core_view_WindowInsetsCompat_Handler:AndroidX.Core.View.IOnApplyWindowInsetsListenerInvoker, Xamarin.AndroidX.Core\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Platform.Compatibility.ShellFlyoutTemplatedContentRenderer+WindowsListener, Microsoft.Maui.Controls", ShellFlyoutTemplatedContentRenderer_WindowsListener.class, __md_methods);
-	}
 
 	public ShellFlyoutTemplatedContentRenderer_WindowsListener (int p0)
 	{

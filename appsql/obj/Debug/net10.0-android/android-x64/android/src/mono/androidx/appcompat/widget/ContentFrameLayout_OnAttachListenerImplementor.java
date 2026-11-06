@@ -7,15 +7,6 @@ public class ContentFrameLayout_OnAttachListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.appcompat.widget.ContentFrameLayout.OnAttachListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onAttachedFromWindow:()V:GetOnAttachedFromWindowHandler:AndroidX.AppCompat.Widget.ContentFrameLayout+IOnAttachListenerInvoker, Xamarin.AndroidX.AppCompat\n" +
-			"n_onDetachedFromWindow:()V:GetOnDetachedFromWindowHandler:AndroidX.AppCompat.Widget.ContentFrameLayout+IOnAttachListenerInvoker, Xamarin.AndroidX.AppCompat\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.AppCompat.Widget.ContentFrameLayout+IOnAttachListenerImplementor, Xamarin.AndroidX.AppCompat", ContentFrameLayout_OnAttachListenerImplementor.class, __md_methods);
-	}
 
 	public ContentFrameLayout_OnAttachListenerImplementor ()
 	{

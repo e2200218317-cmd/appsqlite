@@ -1,10 +1,8 @@
-<api type="debug" assembly-name="appsql" mvid="555a0645ec1b4970a46621d1c3f31e67">
-  <java-to-managed>
-    <entry java-name="crc644f253a9cee5ba45c/MainActivity" managed-name="appsql.MainActivity, appsql" managed-type-token-id="33554441" />
-    <entry java-name="crc644f253a9cee5ba45c/MainApplication" managed-name="appsql.MainApplication, appsql" managed-type-token-id="33554442" />
-  </java-to-managed>
-  <managed-to-java>
-    <entry java-name="crc644f253a9cee5ba45c/MainActivity" managed-name="appsql.MainActivity, appsql" managed-type-token-id="33554441" />
-    <entry java-name="crc644f253a9cee5ba45c/MainApplication" managed-name="appsql.MainApplication, appsql" managed-type-token-id="33554442" />
-  </managed-to-java>
+<api type="release" assembly-name="appsql" mvid="54ba58939a794f5b85075e3724110bda">
+  <module assembly-name="appsql" mvid="54ba58939a794f5b85075e3724110bda" mvid-bytes="k1i6VHmaW0+FB143JBEL2g==">
+    <types-scratch>
+      <entry key="crc644f253a9cee5ba45c/MainActivity" java-name="crc644f253a9cee5ba45c/MainActivity" managed-type-name="appsql.MainActivity" token="33554441" />
+      <entry key="crc644f253a9cee5ba45c/MainApplication" java-name="crc644f253a9cee5ba45c/MainApplication" managed-type-name="appsql.MainApplication" token="33554442" />
+    </types-scratch>
+  </module>
 </api>

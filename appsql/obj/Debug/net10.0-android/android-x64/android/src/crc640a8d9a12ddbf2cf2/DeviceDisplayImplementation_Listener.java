@@ -6,14 +6,6 @@ public class DeviceDisplayImplementation_Listener
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onOrientationChanged:(I)V:GetOnOrientationChanged_IHandler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Devices.DeviceDisplayImplementation+Listener, Microsoft.Maui.Essentials", DeviceDisplayImplementation_Listener.class, __md_methods);
-	}
 
 	public DeviceDisplayImplementation_Listener (android.content.Context p0, int p1)
 	{

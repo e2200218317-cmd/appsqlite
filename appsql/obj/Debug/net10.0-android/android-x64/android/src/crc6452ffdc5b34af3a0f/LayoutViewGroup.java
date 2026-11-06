@@ -6,19 +6,6 @@ public class LayoutViewGroup
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onAttachedToWindow:()V:GetOnAttachedToWindowHandler\n" +
-			"n_onDetachedFromWindow:()V:GetOnDetachedFromWindowHandler\n" +
-			"n_onMeasure:(II)V:GetOnMeasure_IIHandler\n" +
-			"n_onLayout:(ZIIII)V:GetOnLayout_ZIIIIHandler\n" +
-			"n_onConfigurationChanged:(Landroid/content/res/Configuration;)V:GetOnConfigurationChanged_Landroid_content_res_Configuration_Handler\n" +
-			"n_onTouchEvent:(Landroid/view/MotionEvent;)Z:GetOnTouchEvent_Landroid_view_MotionEvent_Handler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Platform.LayoutViewGroup, Microsoft.Maui", LayoutViewGroup.class, __md_methods);
-	}
 
 	public LayoutViewGroup (android.content.Context p0)
 	{

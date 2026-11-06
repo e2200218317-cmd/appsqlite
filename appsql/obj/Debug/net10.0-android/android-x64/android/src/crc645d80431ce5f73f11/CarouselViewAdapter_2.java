@@ -6,16 +6,6 @@ public class CarouselViewAdapter_2
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_getItemCount:()I:GetGetItemCountHandler\n" +
-			"n_getItemViewType:(I)I:GetGetItemViewType_IHandler\n" +
-			"n_onBindViewHolder:(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V:GetOnBindViewHolder_Landroidx_recyclerview_widget_RecyclerView_ViewHolder_IHandler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Handlers.Items.CarouselViewAdapter`2, Microsoft.Maui.Controls", CarouselViewAdapter_2.class, __md_methods);
-	}
 
 	public CarouselViewAdapter_2 ()
 	{

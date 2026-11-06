@@ -6,16 +6,6 @@ public class GroupableItemsViewAdapter_2
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_getItemViewType:(I)I:GetGetItemViewType_IHandler\n" +
-			"n_onCreateViewHolder:(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;:GetOnCreateViewHolder_Landroid_view_ViewGroup_IHandler\n" +
-			"n_onBindViewHolder:(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V:GetOnBindViewHolder_Landroidx_recyclerview_widget_RecyclerView_ViewHolder_IHandler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Handlers.Items.GroupableItemsViewAdapter`2, Microsoft.Maui.Controls", GroupableItemsViewAdapter_2.class, __md_methods);
-	}
 
 	public GroupableItemsViewAdapter_2 ()
 	{

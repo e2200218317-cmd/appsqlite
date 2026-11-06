@@ -7,14 +7,6 @@ public class SharedValues_SharedValuesListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.constraintlayout.widget.SharedValues.SharedValuesListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onNewValue:(III)V:GetOnNewValue_IIIHandler:AndroidX.ConstraintLayout.Widget.SharedValues+ISharedValuesListenerInvoker, Xamarin.AndroidX.ConstraintLayout\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.ConstraintLayout.Widget.SharedValues+ISharedValuesListenerImplementor, Xamarin.AndroidX.ConstraintLayout", SharedValues_SharedValuesListenerImplementor.class, __md_methods);
-	}
 
 	public SharedValues_SharedValuesListenerImplementor ()
 	{

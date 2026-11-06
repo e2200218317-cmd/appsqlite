@@ -7,14 +7,6 @@ public class GenericMenuClickListener
 		mono.android.IGCUserPeer,
 		android.view.MenuItem.OnMenuItemClickListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onMenuItemClick:(Landroid/view/MenuItem;)Z:GetOnMenuItemClick_Landroid_view_MenuItem_Handler:Android.Views.IMenuItemOnMenuItemClickListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Platform.GenericMenuClickListener, Microsoft.Maui.Controls", GenericMenuClickListener.class, __md_methods);
-	}
 
 	public GenericMenuClickListener ()
 	{

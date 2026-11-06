@@ -6,18 +6,6 @@ public class WrapperView
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onLayout:(ZIIII)V:GetOnLayout_ZIIIIHandler\n" +
-			"n_dispatchTouchEvent:(Landroid/view/MotionEvent;)Z:GetDispatchTouchEvent_Landroid_view_MotionEvent_Handler\n" +
-			"n_getClipPath:(II)Landroid/graphics/Path;:GetGetClipPath_IIHandler\n" +
-			"n_getVisibility:()I:GetGetVisibilityHandler\n" +
-			"n_setVisibility:(I)V:GetSetVisibility_IHandler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Platform.WrapperView, Microsoft.Maui", WrapperView.class, __md_methods);
-	}
 
 	public WrapperView (android.content.Context p0)
 	{

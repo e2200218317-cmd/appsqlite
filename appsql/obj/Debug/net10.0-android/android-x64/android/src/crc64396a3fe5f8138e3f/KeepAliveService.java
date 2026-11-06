@@ -6,14 +6,6 @@ public class KeepAliveService
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onBind:(Landroid/content/Intent;)Landroid/os/IBinder;:GetOnBind_Landroid_content_Intent_Handler\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.Browser.CustomTabs.KeepAliveService, Xamarin.AndroidX.Browser", KeepAliveService.class, __md_methods);
-	}
 
 	public KeepAliveService ()
 	{

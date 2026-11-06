@@ -6,14 +6,6 @@ public class ShellSectionRenderer_ViewPagerPageChanged
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onPageSelected:(I)V:GetOnPageSelected_IHandler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Platform.Compatibility.ShellSectionRenderer+ViewPagerPageChanged, Microsoft.Maui.Controls", ShellSectionRenderer_ViewPagerPageChanged.class, __md_methods);
-	}
 
 	public ShellSectionRenderer_ViewPagerPageChanged ()
 	{

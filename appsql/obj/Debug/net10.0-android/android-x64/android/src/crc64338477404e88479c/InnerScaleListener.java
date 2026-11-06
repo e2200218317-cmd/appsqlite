@@ -6,16 +6,6 @@ public class InnerScaleListener
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onScale:(Landroid/view/ScaleGestureDetector;)Z:GetOnScale_Landroid_view_ScaleGestureDetector_Handler\n" +
-			"n_onScaleBegin:(Landroid/view/ScaleGestureDetector;)Z:GetOnScaleBegin_Landroid_view_ScaleGestureDetector_Handler\n" +
-			"n_onScaleEnd:(Landroid/view/ScaleGestureDetector;)V:GetOnScaleEnd_Landroid_view_ScaleGestureDetector_Handler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Platform.InnerScaleListener, Microsoft.Maui.Controls", InnerScaleListener.class, __md_methods);
-	}
 
 	public InnerScaleListener ()
 	{

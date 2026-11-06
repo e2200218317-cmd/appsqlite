@@ -8,7 +8,7 @@
         <constructor name="AppBarConfiguration_OnNavigateUpListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
       </constructors>
       <methods>
-        <method name="onNavigateUp" method="n_onNavigateUp:()Z:GetOnNavigateUpHandler:AndroidX.Navigation.UI.AppBarConfiguration+IOnNavigateUpListenerInvoker, Xamarin.AndroidX.Navigation.UI" jni_signature="()Z" retval="boolean" is_dynamically_registered="True" />
+        <method name="onNavigateUp" method="n_onNavigateUp:()Z:GetOnNavigateUpHandler:AndroidX.Navigation.UI.AppBarConfiguration+IOnNavigateUpListenerInvoker, Xamarin.AndroidX.Navigation.UI" jni_signature="()Z" retval="boolean" />
       </methods>
     </type>
   </jcw-types>

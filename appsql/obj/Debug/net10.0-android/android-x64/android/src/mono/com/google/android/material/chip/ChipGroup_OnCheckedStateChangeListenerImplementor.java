@@ -7,14 +7,6 @@ public class ChipGroup_OnCheckedStateChangeListenerImplementor
 		mono.android.IGCUserPeer,
 		com.google.android.material.chip.ChipGroup.OnCheckedStateChangeListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onCheckedChanged:(Lcom/google/android/material/chip/ChipGroup;Ljava/util/List;)V:GetOnCheckedChanged_Lcom_google_android_material_chip_ChipGroup_Ljava_util_List_Handler:Google.Android.Material.Chip.ChipGroup+IOnCheckedStateChangeListenerInvoker, Xamarin.Google.Android.Material\n" +
-			"";
-		mono.android.Runtime.register ("Google.Android.Material.Chip.ChipGroup+IOnCheckedStateChangeListenerImplementor, Xamarin.Google.Android.Material", ChipGroup_OnCheckedStateChangeListenerImplementor.class, __md_methods);
-	}
 
 	public ChipGroup_OnCheckedStateChangeListenerImplementor ()
 	{

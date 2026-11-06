@@ -8,9 +8,9 @@
         <constructor name="ReportFragment_ActivityInitializationListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
       </constructors>
       <methods>
-        <method name="onCreate" method="n_onCreate:()V:GetOnCreateHandler:AndroidX.Lifecycle.ReportFragment+IActivityInitializationListenerInvoker, Xamarin.AndroidX.Lifecycle.Runtime.Android" jni_signature="()V" retval="void" is_dynamically_registered="True" />
-        <method name="onResume" method="n_onResume:()V:GetOnResumeHandler:AndroidX.Lifecycle.ReportFragment+IActivityInitializationListenerInvoker, Xamarin.AndroidX.Lifecycle.Runtime.Android" jni_signature="()V" retval="void" is_dynamically_registered="True" />
-        <method name="onStart" method="n_onStart:()V:GetOnStartHandler:AndroidX.Lifecycle.ReportFragment+IActivityInitializationListenerInvoker, Xamarin.AndroidX.Lifecycle.Runtime.Android" jni_signature="()V" retval="void" is_dynamically_registered="True" />
+        <method name="onCreate" method="n_onCreate:()V:GetOnCreateHandler:AndroidX.Lifecycle.ReportFragment+IActivityInitializationListenerInvoker, Xamarin.AndroidX.Lifecycle.Runtime.Android" jni_signature="()V" retval="void" />
+        <method name="onResume" method="n_onResume:()V:GetOnResumeHandler:AndroidX.Lifecycle.ReportFragment+IActivityInitializationListenerInvoker, Xamarin.AndroidX.Lifecycle.Runtime.Android" jni_signature="()V" retval="void" />
+        <method name="onStart" method="n_onStart:()V:GetOnStartHandler:AndroidX.Lifecycle.ReportFragment+IActivityInitializationListenerInvoker, Xamarin.AndroidX.Lifecycle.Runtime.Android" jni_signature="()V" retval="void" />
       </methods>
     </type>
   </jcw-types>

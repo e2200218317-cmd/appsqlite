@@ -7,14 +7,6 @@ public class ViewUtils_OnApplyWindowInsetsListenerImplementor
 		mono.android.IGCUserPeer,
 		com.google.android.material.internal.ViewUtils.OnApplyWindowInsetsListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onApplyWindowInsets:(Landroid/view/View;Landroidx/core/view/WindowInsetsCompat;Lcom/google/android/material/internal/ViewUtils$RelativePadding;)Landroidx/core/view/WindowInsetsCompat;:GetOnApplyWindowInsets_Landroid_view_View_Landroidx_core_view_WindowInsetsCompat_Lcom_google_android_material_internal_ViewUtils_RelativePadding_Handler:Google.Android.Material.Internal.ViewUtils+IOnApplyWindowInsetsListenerInvoker, Xamarin.Google.Android.Material\n" +
-			"";
-		mono.android.Runtime.register ("Google.Android.Material.Internal.ViewUtils+IOnApplyWindowInsetsListenerImplementor, Xamarin.Google.Android.Material", ViewUtils_OnApplyWindowInsetsListenerImplementor.class, __md_methods);
-	}
 
 	public ViewUtils_OnApplyWindowInsetsListenerImplementor ()
 	{

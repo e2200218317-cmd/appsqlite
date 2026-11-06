@@ -6,22 +6,6 @@ public class AccessibilityDelegateCompatWrapper
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onInitializeAccessibilityNodeInfo:(Landroid/view/View;Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;)V:GetOnInitializeAccessibilityNodeInfo_Landroid_view_View_Landroidx_core_view_accessibility_AccessibilityNodeInfoCompat_Handler\n" +
-			"n_sendAccessibilityEvent:(Landroid/view/View;I)V:GetSendAccessibilityEvent_Landroid_view_View_IHandler\n" +
-			"n_sendAccessibilityEventUnchecked:(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V:GetSendAccessibilityEventUnchecked_Landroid_view_View_Landroid_view_accessibility_AccessibilityEvent_Handler\n" +
-			"n_dispatchPopulateAccessibilityEvent:(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)Z:GetDispatchPopulateAccessibilityEvent_Landroid_view_View_Landroid_view_accessibility_AccessibilityEvent_Handler\n" +
-			"n_onPopulateAccessibilityEvent:(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V:GetOnPopulateAccessibilityEvent_Landroid_view_View_Landroid_view_accessibility_AccessibilityEvent_Handler\n" +
-			"n_onInitializeAccessibilityEvent:(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V:GetOnInitializeAccessibilityEvent_Landroid_view_View_Landroid_view_accessibility_AccessibilityEvent_Handler\n" +
-			"n_onRequestSendAccessibilityEvent:(Landroid/view/ViewGroup;Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)Z:GetOnRequestSendAccessibilityEvent_Landroid_view_ViewGroup_Landroid_view_View_Landroid_view_accessibility_AccessibilityEvent_Handler\n" +
-			"n_performAccessibilityAction:(Landroid/view/View;ILandroid/os/Bundle;)Z:GetPerformAccessibilityAction_Landroid_view_View_ILandroid_os_Bundle_Handler\n" +
-			"n_getAccessibilityNodeProvider:(Landroid/view/View;)Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;:GetGetAccessibilityNodeProvider_Landroid_view_View_Handler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Platform.AccessibilityDelegateCompatWrapper, Microsoft.Maui", AccessibilityDelegateCompatWrapper.class, __md_methods);
-	}
 
 	public AccessibilityDelegateCompatWrapper ()
 	{

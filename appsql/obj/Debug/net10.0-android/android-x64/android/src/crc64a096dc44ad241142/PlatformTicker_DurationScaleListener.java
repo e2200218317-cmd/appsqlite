@@ -7,14 +7,6 @@ public class PlatformTicker_DurationScaleListener
 		mono.android.IGCUserPeer,
 		android.animation.ValueAnimator.DurationScaleChangeListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onChanged:(F)V:GetOnChanged_FHandler:Android.Animation.ValueAnimator+IDurationScaleChangeListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Animations.PlatformTicker+DurationScaleListener, Microsoft.Maui", PlatformTicker_DurationScaleListener.class, __md_methods);
-	}
 
 	public PlatformTicker_DurationScaleListener ()
 	{

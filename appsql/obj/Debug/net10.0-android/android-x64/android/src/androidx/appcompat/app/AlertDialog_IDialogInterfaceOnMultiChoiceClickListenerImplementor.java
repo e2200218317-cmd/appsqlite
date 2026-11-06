@@ -7,14 +7,6 @@ public class AlertDialog_IDialogInterfaceOnMultiChoiceClickListenerImplementor
 		mono.android.IGCUserPeer,
 		android.content.DialogInterface.OnMultiChoiceClickListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onClick:(Landroid/content/DialogInterface;IZ)V:GetOnClick_Landroid_content_DialogInterface_IZHandler:Android.Content.IDialogInterfaceOnMultiChoiceClickListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.AppCompat.App.AlertDialog+IDialogInterfaceOnMultiChoiceClickListenerImplementor, Xamarin.AndroidX.AppCompat", AlertDialog_IDialogInterfaceOnMultiChoiceClickListenerImplementor.class, __md_methods);
-	}
 
 	public AlertDialog_IDialogInterfaceOnMultiChoiceClickListenerImplementor ()
 	{

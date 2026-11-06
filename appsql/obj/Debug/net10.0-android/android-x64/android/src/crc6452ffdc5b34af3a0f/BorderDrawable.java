@@ -6,15 +6,6 @@ public class BorderDrawable
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onBoundsChange:(Landroid/graphics/Rect;)V:GetOnBoundsChange_Landroid_graphics_Rect_Handler\n" +
-			"n_onDraw:(Landroid/graphics/drawable/shapes/Shape;Landroid/graphics/Canvas;Landroid/graphics/Paint;)V:GetOnDraw_Landroid_graphics_drawable_shapes_Shape_Landroid_graphics_Canvas_Landroid_graphics_Paint_Handler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Platform.BorderDrawable, Microsoft.Maui", BorderDrawable.class, __md_methods);
-	}
 
 	public BorderDrawable ()
 	{

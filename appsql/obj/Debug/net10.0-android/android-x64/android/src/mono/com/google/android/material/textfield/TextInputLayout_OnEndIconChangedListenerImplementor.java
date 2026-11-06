@@ -7,14 +7,6 @@ public class TextInputLayout_OnEndIconChangedListenerImplementor
 		mono.android.IGCUserPeer,
 		com.google.android.material.textfield.TextInputLayout.OnEndIconChangedListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onEndIconChanged:(Lcom/google/android/material/textfield/TextInputLayout;I)V:GetOnEndIconChanged_Lcom_google_android_material_textfield_TextInputLayout_IHandler:Google.Android.Material.TextField.TextInputLayout+IOnEndIconChangedListenerInvoker, Xamarin.Google.Android.Material\n" +
-			"";
-		mono.android.Runtime.register ("Google.Android.Material.TextField.TextInputLayout+IOnEndIconChangedListenerImplementor, Xamarin.Google.Android.Material", TextInputLayout_OnEndIconChangedListenerImplementor.class, __md_methods);
-	}
 
 	public TextInputLayout_OnEndIconChangedListenerImplementor ()
 	{

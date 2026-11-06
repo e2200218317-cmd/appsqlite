@@ -8,7 +8,7 @@
         <constructor name="SwipeRefreshLayout_OnRefreshListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
       </constructors>
       <methods>
-        <method name="onRefresh" method="n_onRefresh:()V:GetOnRefreshHandler:AndroidX.SwipeRefreshLayout.Widget.SwipeRefreshLayout+IOnRefreshListenerInvoker, Xamarin.AndroidX.SwipeRefreshLayout" jni_signature="()V" retval="void" is_dynamically_registered="True" />
+        <method name="onRefresh" method="n_onRefresh:()V:GetOnRefreshHandler:AndroidX.SwipeRefreshLayout.Widget.SwipeRefreshLayout+IOnRefreshListenerInvoker, Xamarin.AndroidX.SwipeRefreshLayout" jni_signature="()V" retval="void" />
       </methods>
     </type>
   </jcw-types>

@@ -6,18 +6,6 @@ public class MauiWebViewClient
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_shouldOverrideUrlLoading:(Landroid/webkit/WebView;Landroid/webkit/WebResourceRequest;)Z:GetShouldOverrideUrlLoading_Landroid_webkit_WebView_Landroid_webkit_WebResourceRequest_Handler\n" +
-			"n_onPageStarted:(Landroid/webkit/WebView;Ljava/lang/String;Landroid/graphics/Bitmap;)V:GetOnPageStarted_Landroid_webkit_WebView_Ljava_lang_String_Landroid_graphics_Bitmap_Handler\n" +
-			"n_onPageFinished:(Landroid/webkit/WebView;Ljava/lang/String;)V:GetOnPageFinished_Landroid_webkit_WebView_Ljava_lang_String_Handler\n" +
-			"n_onReceivedError:(Landroid/webkit/WebView;Landroid/webkit/WebResourceRequest;Landroid/webkit/WebResourceError;)V:GetOnReceivedError_Landroid_webkit_WebView_Landroid_webkit_WebResourceRequest_Landroid_webkit_WebResourceError_Handler\n" +
-			"n_onRenderProcessGone:(Landroid/webkit/WebView;Landroid/webkit/RenderProcessGoneDetail;)Z:GetOnRenderProcessGone_Landroid_webkit_WebView_Landroid_webkit_RenderProcessGoneDetail_Handler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Platform.MauiWebViewClient, Microsoft.Maui", MauiWebViewClient.class, __md_methods);
-	}
 
 	public MauiWebViewClient ()
 	{

@@ -7,14 +7,6 @@ public class MaterialCheckBox_OnCheckedStateChangedListenerImplementor
 		mono.android.IGCUserPeer,
 		com.google.android.material.checkbox.MaterialCheckBox.OnCheckedStateChangedListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onCheckedStateChangedListener:(Lcom/google/android/material/checkbox/MaterialCheckBox;I)V:GetOnCheckedStateChangedListener_Lcom_google_android_material_checkbox_MaterialCheckBox_IHandler:Google.Android.Material.CheckBox.MaterialCheckBox+IOnCheckedStateChangedListenerInvoker, Xamarin.Google.Android.Material\n" +
-			"";
-		mono.android.Runtime.register ("Google.Android.Material.CheckBox.MaterialCheckBox+IOnCheckedStateChangedListenerImplementor, Xamarin.Google.Android.Material", MaterialCheckBox_OnCheckedStateChangedListenerImplementor.class, __md_methods);
-	}
 
 	public MaterialCheckBox_OnCheckedStateChangedListenerImplementor ()
 	{

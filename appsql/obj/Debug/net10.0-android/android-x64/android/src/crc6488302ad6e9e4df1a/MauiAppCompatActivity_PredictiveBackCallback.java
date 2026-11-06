@@ -7,14 +7,6 @@ public class MauiAppCompatActivity_PredictiveBackCallback
 		mono.android.IGCUserPeer,
 		android.window.OnBackInvokedCallback
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onBackInvoked:()V:GetOnBackInvokedHandler:Android.Window.IOnBackInvokedCallbackInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.MauiAppCompatActivity+PredictiveBackCallback, Microsoft.Maui", MauiAppCompatActivity_PredictiveBackCallback.class, __md_methods);
-	}
 
 	public MauiAppCompatActivity_PredictiveBackCallback ()
 	{

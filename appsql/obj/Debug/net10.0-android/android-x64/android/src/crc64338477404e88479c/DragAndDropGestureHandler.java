@@ -7,14 +7,6 @@ public class DragAndDropGestureHandler
 		mono.android.IGCUserPeer,
 		android.view.View.OnDragListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onDrag:(Landroid/view/View;Landroid/view/DragEvent;)Z:GetOnDrag_Landroid_view_View_Landroid_view_DragEvent_Handler:Android.Views.View+IOnDragListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Platform.DragAndDropGestureHandler, Microsoft.Maui.Controls", DragAndDropGestureHandler.class, __md_methods);
-	}
 
 	public DragAndDropGestureHandler ()
 	{

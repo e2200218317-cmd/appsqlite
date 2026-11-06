@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("appsql")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+45efec6edbc7d25959c4edeadcd047cf386613d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("appsql")]
 [assembly: System.Reflection.AssemblyTitleAttribute("appsql")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

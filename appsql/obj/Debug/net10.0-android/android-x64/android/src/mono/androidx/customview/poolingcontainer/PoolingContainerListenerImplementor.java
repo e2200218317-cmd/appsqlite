@@ -7,14 +7,6 @@ public class PoolingContainerListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.customview.poolingcontainer.PoolingContainerListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onRelease:()V:GetOnReleaseHandler:AndroidX.CustomView.PoolingContainer.IPoolingContainerListenerInvoker, Xamarin.AndroidX.CustomView.PoolingContainer\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.CustomView.PoolingContainer.IPoolingContainerListenerImplementor, Xamarin.AndroidX.CustomView.PoolingContainer", PoolingContainerListenerImplementor.class, __md_methods);
-	}
 
 	public PoolingContainerListenerImplementor ()
 	{

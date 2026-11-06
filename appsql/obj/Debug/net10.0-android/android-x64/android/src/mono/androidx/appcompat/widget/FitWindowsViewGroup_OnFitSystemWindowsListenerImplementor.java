@@ -7,14 +7,6 @@ public class FitWindowsViewGroup_OnFitSystemWindowsListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.appcompat.widget.FitWindowsViewGroup.OnFitSystemWindowsListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onFitSystemWindows:(Landroid/graphics/Rect;)V:GetOnFitSystemWindows_Landroid_graphics_Rect_Handler:AndroidX.AppCompat.Widget.IFitWindowsViewGroupOnFitSystemWindowsListenerInvoker, Xamarin.AndroidX.AppCompat\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.AppCompat.Widget.IFitWindowsViewGroupOnFitSystemWindowsListenerImplementor, Xamarin.AndroidX.AppCompat", FitWindowsViewGroup_OnFitSystemWindowsListenerImplementor.class, __md_methods);
-	}
 
 	public FitWindowsViewGroup_OnFitSystemWindowsListenerImplementor ()
 	{

@@ -7,14 +7,6 @@ public class Loader_OnLoadCanceledListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.loader.content.Loader.OnLoadCanceledListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onLoadCanceled:(Landroidx/loader/content/Loader;)V:GetOnLoadCanceled_Landroidx_loader_content_Loader_Handler:AndroidX.Loader.Content.Loader+IOnLoadCanceledListenerInvoker, Xamarin.AndroidX.Loader\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.Loader.Content.Loader+IOnLoadCanceledListenerImplementor, Xamarin.AndroidX.Loader", Loader_OnLoadCanceledListenerImplementor.class, __md_methods);
-	}
 
 	public Loader_OnLoadCanceledListenerImplementor ()
 	{

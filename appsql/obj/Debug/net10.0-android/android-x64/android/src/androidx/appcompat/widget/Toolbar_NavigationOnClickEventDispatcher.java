@@ -7,14 +7,6 @@ public class Toolbar_NavigationOnClickEventDispatcher
 		mono.android.IGCUserPeer,
 		android.view.View.OnClickListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onClick:(Landroid/view/View;)V:GetOnClick_Landroid_view_View_Handler:Android.Views.View+IOnClickListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.AppCompat.Widget.Toolbar+NavigationOnClickEventDispatcher, Xamarin.AndroidX.AppCompat", Toolbar_NavigationOnClickEventDispatcher.class, __md_methods);
-	}
 
 	public Toolbar_NavigationOnClickEventDispatcher ()
 	{

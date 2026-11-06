@@ -7,14 +7,6 @@ public class Snackbar_SnackbarActionClickImplementor
 		mono.android.IGCUserPeer,
 		android.view.View.OnClickListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onClick:(Landroid/view/View;)V:GetOnClick_Landroid_view_View_Handler:Android.Views.View+IOnClickListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
-			"";
-		mono.android.Runtime.register ("Google.Android.Material.Snackbar.Snackbar+SnackbarActionClickImplementor, Xamarin.Google.Android.Material", Snackbar_SnackbarActionClickImplementor.class, __md_methods);
-	}
 
 	public Snackbar_SnackbarActionClickImplementor ()
 	{

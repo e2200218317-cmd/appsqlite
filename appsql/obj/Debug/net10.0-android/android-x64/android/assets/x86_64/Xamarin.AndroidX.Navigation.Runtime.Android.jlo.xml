@@ -8,7 +8,7 @@
         <constructor name="NavController_OnDestinationChangedListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
       </constructors>
       <methods>
-        <method name="onDestinationChanged" method="n_onDestinationChanged:(Landroidx/navigation/NavController;Landroidx/navigation/NavDestination;Landroid/os/Bundle;)V:GetOnDestinationChanged_Landroidx_navigation_NavController_Landroidx_navigation_NavDestination_Landroid_os_Bundle_Handler:AndroidX.Navigation.NavController+IOnDestinationChangedListenerInvoker, Xamarin.AndroidX.Navigation.Runtime.Android" jni_signature="(Landroidx/navigation/NavController;Landroidx/navigation/NavDestination;Landroid/os/Bundle;)V" params="androidx.navigation.NavController p0, androidx.navigation.NavDestination p1, android.os.Bundle p2" retval="void" is_dynamically_registered="True" super_call="p0, p1, p2" activate_call="p0, p1, p2" />
+        <method name="onDestinationChanged" method="n_onDestinationChanged:(Landroidx/navigation/NavController;Landroidx/navigation/NavDestination;Landroid/os/Bundle;)V:GetOnDestinationChanged_Landroidx_navigation_NavController_Landroidx_navigation_NavDestination_Landroid_os_Bundle_Handler:AndroidX.Navigation.NavController+IOnDestinationChangedListenerInvoker, Xamarin.AndroidX.Navigation.Runtime.Android" jni_signature="(Landroidx/navigation/NavController;Landroidx/navigation/NavDestination;Landroid/os/Bundle;)V" params="androidx.navigation.NavController p0, androidx.navigation.NavDestination p1, android.os.Bundle p2" retval="void" super_call="p0, p1, p2" activate_call="p0, p1, p2" />
       </methods>
     </type>
   </jcw-types>

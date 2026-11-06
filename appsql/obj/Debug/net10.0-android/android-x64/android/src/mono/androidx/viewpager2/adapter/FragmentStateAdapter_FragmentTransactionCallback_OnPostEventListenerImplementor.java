@@ -7,14 +7,6 @@ public class FragmentStateAdapter_FragmentTransactionCallback_OnPostEventListene
 		mono.android.IGCUserPeer,
 		androidx.viewpager2.adapter.FragmentStateAdapter.FragmentTransactionCallback.OnPostEventListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onPost:()V:GetOnPostHandler:AndroidX.ViewPager2.Adapter.FragmentStateAdapter+FragmentTransactionCallback+IOnPostEventListenerInvoker, Xamarin.AndroidX.ViewPager2\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.ViewPager2.Adapter.FragmentStateAdapter+FragmentTransactionCallback+IOnPostEventListenerImplementor, Xamarin.AndroidX.ViewPager2", FragmentStateAdapter_FragmentTransactionCallback_OnPostEventListenerImplementor.class, __md_methods);
-	}
 
 	public FragmentStateAdapter_FragmentTransactionCallback_OnPostEventListenerImplementor ()
 	{

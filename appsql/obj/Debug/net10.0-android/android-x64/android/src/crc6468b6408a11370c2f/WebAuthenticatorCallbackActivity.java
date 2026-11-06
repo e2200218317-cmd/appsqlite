@@ -6,14 +6,6 @@ public abstract class WebAuthenticatorCallbackActivity
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Authentication.WebAuthenticatorCallbackActivity, Microsoft.Maui.Essentials", WebAuthenticatorCallbackActivity.class, __md_methods);
-	}
 
 	public WebAuthenticatorCallbackActivity ()
 	{

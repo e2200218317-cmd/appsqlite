@@ -6,14 +6,6 @@ public class CustomFrameLayout
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onApplyWindowInsets:(Landroid/view/WindowInsets;)Landroid/view/WindowInsets;:GetOnApplyWindowInsets_Landroid_view_WindowInsets_Handler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Platform.Compatibility.CustomFrameLayout, Microsoft.Maui.Controls", CustomFrameLayout.class, __md_methods);
-	}
 
 	public CustomFrameLayout (android.content.Context p0, android.util.AttributeSet p1, int p2, int p3)
 	{

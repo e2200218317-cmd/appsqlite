@@ -7,14 +7,6 @@ public class SearchView_TransitionListenerImplementor
 		mono.android.IGCUserPeer,
 		com.google.android.material.search.SearchView.TransitionListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onStateChanged:(Lcom/google/android/material/search/SearchView;Lcom/google/android/material/search/SearchView$TransitionState;Lcom/google/android/material/search/SearchView$TransitionState;)V:GetOnStateChanged_Lcom_google_android_material_search_SearchView_Lcom_google_android_material_search_SearchView_TransitionState_Lcom_google_android_material_search_SearchView_TransitionState_Handler:Google.Android.Material.Search.SearchView+ITransitionListenerInvoker, Xamarin.Google.Android.Material\n" +
-			"";
-		mono.android.Runtime.register ("Google.Android.Material.Search.SearchView+ITransitionListenerImplementor, Xamarin.Google.Android.Material", SearchView_TransitionListenerImplementor.class, __md_methods);
-	}
 
 	public SearchView_TransitionListenerImplementor ()
 	{

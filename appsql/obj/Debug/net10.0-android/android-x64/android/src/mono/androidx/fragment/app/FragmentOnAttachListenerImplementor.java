@@ -7,14 +7,6 @@ public class FragmentOnAttachListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.fragment.app.FragmentOnAttachListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onAttachFragment:(Landroidx/fragment/app/FragmentManager;Landroidx/fragment/app/Fragment;)V:GetOnAttachFragment_Landroidx_fragment_app_FragmentManager_Landroidx_fragment_app_Fragment_Handler:AndroidX.Fragment.App.IFragmentOnAttachListenerInvoker, Xamarin.AndroidX.Fragment\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.Fragment.App.IFragmentOnAttachListenerImplementor, Xamarin.AndroidX.Fragment", FragmentOnAttachListenerImplementor.class, __md_methods);
-	}
 
 	public FragmentOnAttachListenerImplementor ()
 	{

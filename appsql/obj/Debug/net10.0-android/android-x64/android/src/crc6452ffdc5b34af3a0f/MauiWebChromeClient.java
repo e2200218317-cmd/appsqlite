@@ -6,16 +6,6 @@ public class MauiWebChromeClient
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onShowFileChooser:(Landroid/webkit/WebView;Landroid/webkit/ValueCallback;Landroid/webkit/WebChromeClient$FileChooserParams;)Z:GetOnShowFileChooser_Landroid_webkit_WebView_Landroid_webkit_ValueCallback_Landroid_webkit_WebChromeClient_FileChooserParams_Handler\n" +
-			"n_onShowCustomView:(Landroid/view/View;Landroid/webkit/WebChromeClient$CustomViewCallback;)V:GetOnShowCustomView_Landroid_view_View_Landroid_webkit_WebChromeClient_CustomViewCallback_Handler\n" +
-			"n_onHideCustomView:()V:GetOnHideCustomViewHandler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Platform.MauiWebChromeClient, Microsoft.Maui", MauiWebChromeClient.class, __md_methods);
-	}
 
 	public MauiWebChromeClient ()
 	{

@@ -7,16 +7,6 @@ public class ShellItemRenderer
 		mono.android.IGCUserPeer,
 		com.google.android.material.navigation.NavigationBarView.OnItemSelectedListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onCreateView:(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;:GetOnCreateView_Landroid_view_LayoutInflater_Landroid_view_ViewGroup_Landroid_os_Bundle_Handler\n" +
-			"n_onDestroy:()V:GetOnDestroyHandler\n" +
-			"n_onNavigationItemSelected:(Landroid/view/MenuItem;)Z:GetOnNavigationItemSelected_Landroid_view_MenuItem_Handler:Google.Android.Material.Navigation.NavigationBarView+IOnItemSelectedListenerInvoker, Xamarin.Google.Android.Material\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Platform.Compatibility.ShellItemRenderer, Microsoft.Maui.Controls", ShellItemRenderer.class, __md_methods);
-	}
 
 	public ShellItemRenderer ()
 	{

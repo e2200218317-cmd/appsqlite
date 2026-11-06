@@ -7,14 +7,6 @@ public class ActionProvider_VisibilityListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.core.view.ActionProvider.VisibilityListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onActionProviderVisibilityChanged:(Z)V:GetOnActionProviderVisibilityChanged_ZHandler:AndroidX.Core.View.ActionProvider+IVisibilityListenerInvoker, Xamarin.AndroidX.Core\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.Core.View.ActionProvider+IVisibilityListenerImplementor, Xamarin.AndroidX.Core", ActionProvider_VisibilityListenerImplementor.class, __md_methods);
-	}
 
 	public ActionProvider_VisibilityListenerImplementor ()
 	{

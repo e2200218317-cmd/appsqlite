@@ -7,14 +7,6 @@ public class AppBarConfiguration_OnNavigateUpListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.navigation.ui.AppBarConfiguration.OnNavigateUpListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onNavigateUp:()Z:GetOnNavigateUpHandler:AndroidX.Navigation.UI.AppBarConfiguration+IOnNavigateUpListenerInvoker, Xamarin.AndroidX.Navigation.UI\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.Navigation.UI.AppBarConfiguration+IOnNavigateUpListenerImplementor, Xamarin.AndroidX.Navigation.UI", AppBarConfiguration_OnNavigateUpListenerImplementor.class, __md_methods);
-	}
 
 	public AppBarConfiguration_OnNavigateUpListenerImplementor ()
 	{

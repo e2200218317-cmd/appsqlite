@@ -7,14 +7,6 @@ public class RecyclerView_ItemAnimator_ItemAnimatorFinishedListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.recyclerview.widget.RecyclerView.ItemAnimator.ItemAnimatorFinishedListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onAnimationsFinished:()V:GetOnAnimationsFinishedHandler:AndroidX.RecyclerView.Widget.RecyclerView+ItemAnimator+IItemAnimatorFinishedListenerInvoker, Xamarin.AndroidX.RecyclerView\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.RecyclerView.Widget.RecyclerView+ItemAnimator+IItemAnimatorFinishedListenerImplementor, Xamarin.AndroidX.RecyclerView", RecyclerView_ItemAnimator_ItemAnimatorFinishedListenerImplementor.class, __md_methods);
-	}
 
 	public RecyclerView_ItemAnimator_ItemAnimatorFinishedListenerImplementor ()
 	{

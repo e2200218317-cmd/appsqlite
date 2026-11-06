@@ -7,14 +7,6 @@ public class OnApplyWindowInsetsListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.core.view.OnApplyWindowInsetsListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onApplyWindowInsets:(Landroid/view/View;Landroidx/core/view/WindowInsetsCompat;)Landroidx/core/view/WindowInsetsCompat;:GetOnApplyWindowInsets_Landroid_view_View_Landroidx_core_view_WindowInsetsCompat_Handler:AndroidX.Core.View.IOnApplyWindowInsetsListenerInvoker, Xamarin.AndroidX.Core\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.Core.View.IOnApplyWindowInsetsListenerImplementor, Xamarin.AndroidX.Core", OnApplyWindowInsetsListenerImplementor.class, __md_methods);
-	}
 
 	public OnApplyWindowInsetsListenerImplementor ()
 	{

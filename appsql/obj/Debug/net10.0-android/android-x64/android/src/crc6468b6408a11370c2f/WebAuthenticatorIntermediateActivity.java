@@ -6,17 +6,6 @@ public class WebAuthenticatorIntermediateActivity
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
-			"n_onResume:()V:GetOnResumeHandler\n" +
-			"n_onNewIntent:(Landroid/content/Intent;)V:GetOnNewIntent_Landroid_content_Intent_Handler\n" +
-			"n_onSaveInstanceState:(Landroid/os/Bundle;)V:GetOnSaveInstanceState_Landroid_os_Bundle_Handler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Authentication.WebAuthenticatorIntermediateActivity, Microsoft.Maui.Essentials", WebAuthenticatorIntermediateActivity.class, __md_methods);
-	}
 
 	public WebAuthenticatorIntermediateActivity ()
 	{

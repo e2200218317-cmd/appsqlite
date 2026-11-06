@@ -7,14 +7,6 @@ public class SwitchCellView
 		mono.android.IGCUserPeer,
 		android.widget.CompoundButton.OnCheckedChangeListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onCheckedChanged:(Landroid/widget/CompoundButton;Z)V:GetOnCheckedChanged_Landroid_widget_CompoundButton_ZHandler:Android.Widget.CompoundButton+IOnCheckedChangeListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Handlers.Compatibility.SwitchCellView, Microsoft.Maui.Controls", SwitchCellView.class, __md_methods);
-	}
 
 	public SwitchCellView (android.content.Context p0, android.util.AttributeSet p1, int p2, int p3)
 	{

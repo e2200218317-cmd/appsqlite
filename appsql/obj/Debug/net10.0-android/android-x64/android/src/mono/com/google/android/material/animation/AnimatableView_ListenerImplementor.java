@@ -7,14 +7,6 @@ public class AnimatableView_ListenerImplementor
 		mono.android.IGCUserPeer,
 		com.google.android.material.animation.AnimatableView.Listener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onAnimationEnd:()V:GetOnAnimationEndHandler:Google.Android.Material.Animation.IAnimatableViewListenerInvoker, Xamarin.Google.Android.Material\n" +
-			"";
-		mono.android.Runtime.register ("Google.Android.Material.Animation.IAnimatableViewListenerImplementor, Xamarin.Google.Android.Material", AnimatableView_ListenerImplementor.class, __md_methods);
-	}
 
 	public AnimatableView_ListenerImplementor ()
 	{

@@ -6,14 +6,6 @@ public class ModalNavigationManager_ModalFragment_CustomComponentDialog_CallBack
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_handleOnBackPressed:()V:GetHandleOnBackPressedHandler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Platform.ModalNavigationManager+ModalFragment+CustomComponentDialog+CallBack, Microsoft.Maui.Controls", ModalNavigationManager_ModalFragment_CustomComponentDialog_CallBack.class, __md_methods);
-	}
 
 	public ModalNavigationManager_ModalFragment_CustomComponentDialog_CallBack (boolean p0)
 	{

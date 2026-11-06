@@ -7,14 +7,6 @@ public class PopupMenu_OnDismissListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.appcompat.widget.PopupMenu.OnDismissListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onDismiss:(Landroidx/appcompat/widget/PopupMenu;)V:GetOnDismiss_Landroidx_appcompat_widget_PopupMenu_Handler:AndroidX.AppCompat.Widget.PopupMenu+IOnDismissListenerInvoker, Xamarin.AndroidX.AppCompat\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.AppCompat.Widget.PopupMenu+IOnDismissListenerImplementor, Xamarin.AndroidX.AppCompat", PopupMenu_OnDismissListenerImplementor.class, __md_methods);
-	}
 
 	public PopupMenu_OnDismissListenerImplementor ()
 	{

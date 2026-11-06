@@ -7,14 +7,6 @@ public class TextInputLayout_OnEditTextAttachedListenerImplementor
 		mono.android.IGCUserPeer,
 		com.google.android.material.textfield.TextInputLayout.OnEditTextAttachedListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onEditTextAttached:(Lcom/google/android/material/textfield/TextInputLayout;)V:GetOnEditTextAttached_Lcom_google_android_material_textfield_TextInputLayout_Handler:Google.Android.Material.TextField.TextInputLayout+IOnEditTextAttachedListenerInvoker, Xamarin.Google.Android.Material\n" +
-			"";
-		mono.android.Runtime.register ("Google.Android.Material.TextField.TextInputLayout+IOnEditTextAttachedListenerImplementor, Xamarin.Google.Android.Material", TextInputLayout_OnEditTextAttachedListenerImplementor.class, __md_methods);
-	}
 
 	public TextInputLayout_OnEditTextAttachedListenerImplementor ()
 	{

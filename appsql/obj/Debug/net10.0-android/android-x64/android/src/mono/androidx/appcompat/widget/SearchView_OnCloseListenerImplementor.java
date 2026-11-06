@@ -7,14 +7,6 @@ public class SearchView_OnCloseListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.appcompat.widget.SearchView.OnCloseListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onClose:()Z:GetOnCloseHandler:AndroidX.AppCompat.Widget.SearchView+IOnCloseListenerInvoker, Xamarin.AndroidX.AppCompat\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.AppCompat.Widget.SearchView+IOnCloseListenerImplementor, Xamarin.AndroidX.AppCompat", SearchView_OnCloseListenerImplementor.class, __md_methods);
-	}
 
 	public SearchView_OnCloseListenerImplementor ()
 	{

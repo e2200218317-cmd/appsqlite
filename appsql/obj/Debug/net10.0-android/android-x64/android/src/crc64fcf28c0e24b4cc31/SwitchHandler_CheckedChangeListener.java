@@ -7,14 +7,6 @@ public class SwitchHandler_CheckedChangeListener
 		mono.android.IGCUserPeer,
 		android.widget.CompoundButton.OnCheckedChangeListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onCheckedChanged:(Landroid/widget/CompoundButton;Z)V:GetOnCheckedChanged_Landroid_widget_CompoundButton_ZHandler:Android.Widget.CompoundButton+IOnCheckedChangeListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Handlers.SwitchHandler+CheckedChangeListener, Microsoft.Maui", SwitchHandler_CheckedChangeListener.class, __md_methods);
-	}
 
 	public SwitchHandler_CheckedChangeListener ()
 	{

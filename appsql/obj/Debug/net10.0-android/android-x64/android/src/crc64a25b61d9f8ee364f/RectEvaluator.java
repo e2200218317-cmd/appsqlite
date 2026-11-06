@@ -7,14 +7,6 @@ public class RectEvaluator
 		mono.android.IGCUserPeer,
 		android.animation.TypeEvaluator
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_evaluate:(FLjava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:GetEvaluate_FLjava_lang_Object_Ljava_lang_Object_Handler:Android.Animation.ITypeEvaluatorInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.Transitions.RectEvaluator, Xamarin.AndroidX.Transition", RectEvaluator.class, __md_methods);
-	}
 
 	public RectEvaluator ()
 	{

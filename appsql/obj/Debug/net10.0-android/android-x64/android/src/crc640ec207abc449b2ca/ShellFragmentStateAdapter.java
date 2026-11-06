@@ -6,17 +6,6 @@ public class ShellFragmentStateAdapter
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_getItemCount:()I:GetGetItemCountHandler\n" +
-			"n_createFragment:(I)Landroidx/fragment/app/Fragment;:GetCreateFragment_IHandler\n" +
-			"n_getItemId:(I)J:GetGetItemId_IHandler\n" +
-			"n_containsItem:(J)Z:GetContainsItem_JHandler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Platform.Compatibility.ShellFragmentStateAdapter, Microsoft.Maui.Controls", ShellFragmentStateAdapter.class, __md_methods);
-	}
 
 	public ShellFragmentStateAdapter (androidx.fragment.app.Fragment p0)
 	{

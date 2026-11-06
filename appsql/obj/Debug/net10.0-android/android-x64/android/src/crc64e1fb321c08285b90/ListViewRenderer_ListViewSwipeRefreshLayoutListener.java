@@ -7,14 +7,6 @@ public class ListViewRenderer_ListViewSwipeRefreshLayoutListener
 		mono.android.IGCUserPeer,
 		androidx.swiperefreshlayout.widget.SwipeRefreshLayout.OnRefreshListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onRefresh:()V:GetOnRefreshHandler:AndroidX.SwipeRefreshLayout.Widget.SwipeRefreshLayout+IOnRefreshListenerInvoker, Xamarin.AndroidX.SwipeRefreshLayout\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Handlers.Compatibility.ListViewRenderer+ListViewSwipeRefreshLayoutListener, Microsoft.Maui.Controls", ListViewRenderer_ListViewSwipeRefreshLayoutListener.class, __md_methods);
-	}
 
 	public ListViewRenderer_ListViewSwipeRefreshLayoutListener ()
 	{

@@ -7,14 +7,6 @@ public class ActionBar_OnMenuVisibilityListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.appcompat.app.ActionBar.OnMenuVisibilityListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onMenuVisibilityChanged:(Z)V:GetOnMenuVisibilityChanged_ZHandler:AndroidX.AppCompat.App.ActionBar+IOnMenuVisibilityListenerInvoker, Xamarin.AndroidX.AppCompat\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.AppCompat.App.ActionBar+IOnMenuVisibilityListenerImplementor, Xamarin.AndroidX.AppCompat", ActionBar_OnMenuVisibilityListenerImplementor.class, __md_methods);
-	}
 
 	public ActionBar_OnMenuVisibilityListenerImplementor ()
 	{

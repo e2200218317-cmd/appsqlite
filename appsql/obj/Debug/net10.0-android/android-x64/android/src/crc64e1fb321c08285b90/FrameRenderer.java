@@ -6,18 +6,6 @@ public class FrameRenderer
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onMeasure:(II)V:GetOnMeasure_IIHandler\n" +
-			"n_onLayout:(ZIIII)V:GetOnLayout_ZIIIIHandler\n" +
-			"n_draw:(Landroid/graphics/Canvas;)V:GetDraw_Landroid_graphics_Canvas_Handler\n" +
-			"n_onTouchEvent:(Landroid/view/MotionEvent;)Z:GetOnTouchEvent_Landroid_view_MotionEvent_Handler\n" +
-			"n_onSizeChanged:(IIII)V:GetOnSizeChanged_IIIIHandler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Handlers.Compatibility.FrameRenderer, Microsoft.Maui.Controls", FrameRenderer.class, __md_methods);
-	}
 
 	public FrameRenderer (android.content.Context p0)
 	{

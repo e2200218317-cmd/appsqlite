@@ -7,15 +7,6 @@ public class SearchView_OnQueryTextListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.appcompat.widget.SearchView.OnQueryTextListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onQueryTextChange:(Ljava/lang/String;)Z:GetOnQueryTextChange_Ljava_lang_String_Handler:AndroidX.AppCompat.Widget.SearchView+IOnQueryTextListenerInvoker, Xamarin.AndroidX.AppCompat\n" +
-			"n_onQueryTextSubmit:(Ljava/lang/String;)Z:GetOnQueryTextSubmit_Ljava_lang_String_Handler:AndroidX.AppCompat.Widget.SearchView+IOnQueryTextListenerInvoker, Xamarin.AndroidX.AppCompat\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.AppCompat.Widget.SearchView+IOnQueryTextListenerImplementor, Xamarin.AndroidX.AppCompat", SearchView_OnQueryTextListenerImplementor.class, __md_methods);
-	}
 
 	public SearchView_OnQueryTextListenerImplementor ()
 	{

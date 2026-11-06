@@ -7,14 +7,6 @@ public class ViewPager_OnAdapterChangeListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.viewpager.widget.ViewPager.OnAdapterChangeListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onAdapterChanged:(Landroidx/viewpager/widget/ViewPager;Landroidx/viewpager/widget/PagerAdapter;Landroidx/viewpager/widget/PagerAdapter;)V:GetOnAdapterChanged_Landroidx_viewpager_widget_ViewPager_Landroidx_viewpager_widget_PagerAdapter_Landroidx_viewpager_widget_PagerAdapter_Handler:AndroidX.ViewPager.Widget.ViewPager+IOnAdapterChangeListenerInvoker, Xamarin.AndroidX.ViewPager\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.ViewPager.Widget.ViewPager+IOnAdapterChangeListenerImplementor, Xamarin.AndroidX.ViewPager", ViewPager_OnAdapterChangeListenerImplementor.class, __md_methods);
-	}
 
 	public ViewPager_OnAdapterChangeListenerImplementor ()
 	{

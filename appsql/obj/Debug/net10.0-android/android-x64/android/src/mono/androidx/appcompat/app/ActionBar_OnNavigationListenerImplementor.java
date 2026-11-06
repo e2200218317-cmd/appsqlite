@@ -7,14 +7,6 @@ public class ActionBar_OnNavigationListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.appcompat.app.ActionBar.OnNavigationListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onNavigationItemSelected:(IJ)Z:GetOnNavigationItemSelected_IJHandler:AndroidX.AppCompat.App.ActionBar+IOnNavigationListenerInvoker, Xamarin.AndroidX.AppCompat\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.AppCompat.App.ActionBar+IOnNavigationListenerImplementor, Xamarin.AndroidX.AppCompat", ActionBar_OnNavigationListenerImplementor.class, __md_methods);
-	}
 
 	public ActionBar_OnNavigationListenerImplementor ()
 	{

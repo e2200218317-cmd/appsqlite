@@ -6,16 +6,6 @@ public class PlatformTouchGraphicsView
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onLayout:(ZIIII)V:GetOnLayout_ZIIIIHandler\n" +
-			"n_onTouchEvent:(Landroid/view/MotionEvent;)Z:GetOnTouchEvent_Landroid_view_MotionEvent_Handler\n" +
-			"n_onHoverEvent:(Landroid/view/MotionEvent;)Z:GetOnHoverEvent_Landroid_view_MotionEvent_Handler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Platform.PlatformTouchGraphicsView, Microsoft.Maui", PlatformTouchGraphicsView.class, __md_methods);
-	}
 
 	public PlatformTouchGraphicsView (android.content.Context p0, android.util.AttributeSet p1, int p2, int p3)
 	{

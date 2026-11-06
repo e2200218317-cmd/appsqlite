@@ -6,30 +6,6 @@ public class MauiAppCompatActivity
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
-			"n_onDestroy:()V:GetOnDestroyHandler\n" +
-			"n_dispatchTouchEvent:(Landroid/view/MotionEvent;)Z:GetDispatchTouchEvent_Landroid_view_MotionEvent_Handler\n" +
-			"n_onActivityResult:(IILandroid/content/Intent;)V:GetOnActivityResult_IILandroid_content_Intent_Handler\n" +
-			"n_onBackPressed:()V:GetOnBackPressedHandler\n" +
-			"n_onConfigurationChanged:(Landroid/content/res/Configuration;)V:GetOnConfigurationChanged_Landroid_content_res_Configuration_Handler\n" +
-			"n_onNewIntent:(Landroid/content/Intent;)V:GetOnNewIntent_Landroid_content_Intent_Handler\n" +
-			"n_onPostCreate:(Landroid/os/Bundle;)V:GetOnPostCreate_Landroid_os_Bundle_Handler\n" +
-			"n_onPostResume:()V:GetOnPostResumeHandler\n" +
-			"n_onRestart:()V:GetOnRestartHandler\n" +
-			"n_onRequestPermissionsResult:(I[Ljava/lang/String;[I)V:GetOnRequestPermissionsResult_IarrayLjava_lang_String_arrayIHandler\n" +
-			"n_onRestoreInstanceState:(Landroid/os/Bundle;)V:GetOnRestoreInstanceState_Landroid_os_Bundle_Handler\n" +
-			"n_onKeyDown:(ILandroid/view/KeyEvent;)Z:GetOnKeyDown_ILandroid_view_KeyEvent_Handler\n" +
-			"n_onKeyLongPress:(ILandroid/view/KeyEvent;)Z:GetOnKeyLongPress_ILandroid_view_KeyEvent_Handler\n" +
-			"n_onKeyMultiple:(IILandroid/view/KeyEvent;)Z:GetOnKeyMultiple_IILandroid_view_KeyEvent_Handler\n" +
-			"n_onKeyShortcut:(ILandroid/view/KeyEvent;)Z:GetOnKeyShortcut_ILandroid_view_KeyEvent_Handler\n" +
-			"n_onKeyUp:(ILandroid/view/KeyEvent;)Z:GetOnKeyUp_ILandroid_view_KeyEvent_Handler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.MauiAppCompatActivity, Microsoft.Maui", MauiAppCompatActivity.class, __md_methods);
-	}
 
 	public MauiAppCompatActivity ()
 	{

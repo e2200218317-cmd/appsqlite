@@ -7,14 +7,6 @@ public class DynamicAnimation_OnAnimationUpdateListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.dynamicanimation.animation.DynamicAnimation.OnAnimationUpdateListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onAnimationUpdate:(Landroidx/dynamicanimation/animation/DynamicAnimation;FF)V:GetOnAnimationUpdate_Landroidx_dynamicanimation_animation_DynamicAnimation_FFHandler:AndroidX.DynamicAnimation.DynamicAnimation+IOnAnimationUpdateListenerInvoker, Xamarin.AndroidX.DynamicAnimation\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.DynamicAnimation.DynamicAnimation+IOnAnimationUpdateListenerImplementor, Xamarin.AndroidX.DynamicAnimation", DynamicAnimation_OnAnimationUpdateListenerImplementor.class, __md_methods);
-	}
 
 	public DynamicAnimation_OnAnimationUpdateListenerImplementor ()
 	{

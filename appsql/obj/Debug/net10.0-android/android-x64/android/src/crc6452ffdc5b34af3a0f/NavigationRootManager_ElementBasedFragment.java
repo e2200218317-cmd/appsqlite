@@ -6,14 +6,6 @@ public class NavigationRootManager_ElementBasedFragment
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onViewCreated:(Landroid/view/View;Landroid/os/Bundle;)V:GetOnViewCreated_Landroid_view_View_Landroid_os_Bundle_Handler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Platform.NavigationRootManager+ElementBasedFragment, Microsoft.Maui", NavigationRootManager_ElementBasedFragment.class, __md_methods);
-	}
 
 	public NavigationRootManager_ElementBasedFragment ()
 	{

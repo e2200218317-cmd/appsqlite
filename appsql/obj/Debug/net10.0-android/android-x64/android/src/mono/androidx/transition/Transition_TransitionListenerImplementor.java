@@ -7,20 +7,6 @@ public class Transition_TransitionListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.transition.Transition.TransitionListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onTransitionCancel:(Landroidx/transition/Transition;)V:GetOnTransitionCancel_Landroidx_transition_Transition_Handler:AndroidX.Transitions.Transition+ITransitionListenerInvoker, Xamarin.AndroidX.Transition\n" +
-			"n_onTransitionEnd:(Landroidx/transition/Transition;)V:GetOnTransitionEnd_Landroidx_transition_Transition_Handler:AndroidX.Transitions.Transition+ITransitionListenerInvoker, Xamarin.AndroidX.Transition\n" +
-			"n_onTransitionPause:(Landroidx/transition/Transition;)V:GetOnTransitionPause_Landroidx_transition_Transition_Handler:AndroidX.Transitions.Transition+ITransitionListenerInvoker, Xamarin.AndroidX.Transition\n" +
-			"n_onTransitionResume:(Landroidx/transition/Transition;)V:GetOnTransitionResume_Landroidx_transition_Transition_Handler:AndroidX.Transitions.Transition+ITransitionListenerInvoker, Xamarin.AndroidX.Transition\n" +
-			"n_onTransitionStart:(Landroidx/transition/Transition;)V:GetOnTransitionStart_Landroidx_transition_Transition_Handler:AndroidX.Transitions.Transition+ITransitionListenerInvoker, Xamarin.AndroidX.Transition\n" +
-			"n_onTransitionEnd:(Landroidx/transition/Transition;Z)V:GetOnTransitionEndReversed_Landroidx_transition_Transition_ZHandler:AndroidX.Transitions.Transition+ITransitionListener, Xamarin.AndroidX.Transition\n" +
-			"n_onTransitionStart:(Landroidx/transition/Transition;Z)V:GetOnTransitionStartReversed_Landroidx_transition_Transition_ZHandler:AndroidX.Transitions.Transition+ITransitionListener, Xamarin.AndroidX.Transition\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.Transitions.Transition+ITransitionListenerImplementor, Xamarin.AndroidX.Transition", Transition_TransitionListenerImplementor.class, __md_methods);
-	}
 
 	public Transition_TransitionListenerImplementor ()
 	{

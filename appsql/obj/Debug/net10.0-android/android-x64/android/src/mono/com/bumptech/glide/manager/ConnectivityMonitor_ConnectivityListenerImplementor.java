@@ -7,14 +7,6 @@ public class ConnectivityMonitor_ConnectivityListenerImplementor
 		mono.android.IGCUserPeer,
 		com.bumptech.glide.manager.ConnectivityMonitor.ConnectivityListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onConnectivityChanged:(Z)V:GetOnConnectivityChanged_ZHandler:Bumptech.Glide.Manager.IConnectivityMonitorConnectivityListenerInvoker, Xamarin.Android.Glide\n" +
-			"";
-		mono.android.Runtime.register ("Bumptech.Glide.Manager.IConnectivityMonitorConnectivityListenerImplementor, Xamarin.Android.Glide", ConnectivityMonitor_ConnectivityListenerImplementor.class, __md_methods);
-	}
 
 	public ConnectivityMonitor_ConnectivityListenerImplementor ()
 	{

@@ -7,14 +7,6 @@ public class ConditionalFocusLayout
 		mono.android.IGCUserPeer,
 		android.view.View.OnTouchListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onTouch:(Landroid/view/View;Landroid/view/MotionEvent;)Z:GetOnTouch_Landroid_view_View_Landroid_view_MotionEvent_Handler:Android.Views.View+IOnTouchListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Handlers.Compatibility.ConditionalFocusLayout, Microsoft.Maui.Controls", ConditionalFocusLayout.class, __md_methods);
-	}
 
 	public ConditionalFocusLayout (android.content.Context p0, android.util.AttributeSet p1, int p2, int p3)
 	{

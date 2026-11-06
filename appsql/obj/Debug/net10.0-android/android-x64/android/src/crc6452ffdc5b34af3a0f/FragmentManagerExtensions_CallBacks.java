@@ -6,15 +6,6 @@ public class FragmentManagerExtensions_CallBacks
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onFragmentDestroyed:(Landroidx/fragment/app/FragmentManager;Landroidx/fragment/app/Fragment;)V:GetOnFragmentDestroyed_Landroidx_fragment_app_FragmentManager_Landroidx_fragment_app_Fragment_Handler\n" +
-			"n_onFragmentResumed:(Landroidx/fragment/app/FragmentManager;Landroidx/fragment/app/Fragment;)V:GetOnFragmentResumed_Landroidx_fragment_app_FragmentManager_Landroidx_fragment_app_Fragment_Handler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Platform.FragmentManagerExtensions+CallBacks, Microsoft.Maui", FragmentManagerExtensions_CallBacks.class, __md_methods);
-	}
 
 	public FragmentManagerExtensions_CallBacks ()
 	{

@@ -7,17 +7,6 @@ public class DrawerLayout_DrawerListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.drawerlayout.widget.DrawerLayout.DrawerListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onDrawerClosed:(Landroid/view/View;)V:GetOnDrawerClosed_Landroid_view_View_Handler:AndroidX.DrawerLayout.Widget.DrawerLayout+IDrawerListenerInvoker, Xamarin.AndroidX.DrawerLayout\n" +
-			"n_onDrawerOpened:(Landroid/view/View;)V:GetOnDrawerOpened_Landroid_view_View_Handler:AndroidX.DrawerLayout.Widget.DrawerLayout+IDrawerListenerInvoker, Xamarin.AndroidX.DrawerLayout\n" +
-			"n_onDrawerSlide:(Landroid/view/View;F)V:GetOnDrawerSlide_Landroid_view_View_FHandler:AndroidX.DrawerLayout.Widget.DrawerLayout+IDrawerListenerInvoker, Xamarin.AndroidX.DrawerLayout\n" +
-			"n_onDrawerStateChanged:(I)V:GetOnDrawerStateChanged_IHandler:AndroidX.DrawerLayout.Widget.DrawerLayout+IDrawerListenerInvoker, Xamarin.AndroidX.DrawerLayout\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.DrawerLayout.Widget.DrawerLayout+IDrawerListenerImplementor, Xamarin.AndroidX.DrawerLayout", DrawerLayout_DrawerListenerImplementor.class, __md_methods);
-	}
 
 	public DrawerLayout_DrawerListenerImplementor ()
 	{

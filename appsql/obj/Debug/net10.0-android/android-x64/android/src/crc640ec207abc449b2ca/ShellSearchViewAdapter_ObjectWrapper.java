@@ -6,14 +6,6 @@ public class ShellSearchViewAdapter_ObjectWrapper
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_toString:()Ljava/lang/String;:GetToStringHandler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Platform.Compatibility.ShellSearchViewAdapter+ObjectWrapper, Microsoft.Maui.Controls", ShellSearchViewAdapter_ObjectWrapper.class, __md_methods);
-	}
 
 	public ShellSearchViewAdapter_ObjectWrapper ()
 	{

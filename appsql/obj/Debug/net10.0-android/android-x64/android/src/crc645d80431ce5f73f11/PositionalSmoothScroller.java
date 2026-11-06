@@ -6,16 +6,6 @@ public class PositionalSmoothScroller
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_getVerticalSnapPreference:()I:GetGetVerticalSnapPreferenceHandler\n" +
-			"n_getHorizontalSnapPreference:()I:GetGetHorizontalSnapPreferenceHandler\n" +
-			"n_calculateDtToFit:(IIIII)I:GetCalculateDtToFit_IIIIIHandler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Handlers.Items.PositionalSmoothScroller, Microsoft.Maui.Controls", PositionalSmoothScroller.class, __md_methods);
-	}
 
 	public PositionalSmoothScroller (android.content.Context p0)
 	{

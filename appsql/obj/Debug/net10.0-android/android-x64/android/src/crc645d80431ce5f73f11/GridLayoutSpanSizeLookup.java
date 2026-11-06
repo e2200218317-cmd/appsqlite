@@ -6,14 +6,6 @@ public class GridLayoutSpanSizeLookup
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_getSpanSize:(I)I:GetGetSpanSize_IHandler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Handlers.Items.GridLayoutSpanSizeLookup, Microsoft.Maui.Controls", GridLayoutSpanSizeLookup.class, __md_methods);
-	}
 
 	public GridLayoutSpanSizeLookup ()
 	{

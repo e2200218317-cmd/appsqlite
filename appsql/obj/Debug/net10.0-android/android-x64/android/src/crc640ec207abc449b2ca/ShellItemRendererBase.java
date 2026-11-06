@@ -6,14 +6,6 @@ public abstract class ShellItemRendererBase
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onDestroy:()V:GetOnDestroyHandler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Platform.Compatibility.ShellItemRendererBase, Microsoft.Maui.Controls", ShellItemRendererBase.class, __md_methods);
-	}
 
 	public ShellItemRendererBase ()
 	{

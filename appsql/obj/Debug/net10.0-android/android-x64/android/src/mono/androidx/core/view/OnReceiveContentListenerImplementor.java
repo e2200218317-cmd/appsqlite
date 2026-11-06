@@ -7,14 +7,6 @@ public class OnReceiveContentListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.core.view.OnReceiveContentListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onReceiveContent:(Landroid/view/View;Landroidx/core/view/ContentInfoCompat;)Landroidx/core/view/ContentInfoCompat;:GetOnReceiveContent_Landroid_view_View_Landroidx_core_view_ContentInfoCompat_Handler:AndroidX.Core.View.IOnReceiveContentListenerInvoker, Xamarin.AndroidX.Core\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.Core.View.IOnReceiveContentListenerImplementor, Xamarin.AndroidX.Core", OnReceiveContentListenerImplementor.class, __md_methods);
-	}
 
 	public OnReceiveContentListenerImplementor ()
 	{

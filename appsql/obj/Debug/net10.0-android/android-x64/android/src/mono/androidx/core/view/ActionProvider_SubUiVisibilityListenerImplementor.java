@@ -7,14 +7,6 @@ public class ActionProvider_SubUiVisibilityListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.core.view.ActionProvider.SubUiVisibilityListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onSubUiVisibilityChanged:(Z)V:GetOnSubUiVisibilityChanged_ZHandler:AndroidX.Core.View.ActionProvider+ISubUiVisibilityListenerInvoker, Xamarin.AndroidX.Core\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.Core.View.ActionProvider+ISubUiVisibilityListenerImplementor, Xamarin.AndroidX.Core", ActionProvider_SubUiVisibilityListenerImplementor.class, __md_methods);
-	}
 
 	public ActionProvider_SubUiVisibilityListenerImplementor ()
 	{

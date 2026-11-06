@@ -7,16 +7,6 @@ public class SlidingPaneLayout_PanelSlideListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.slidingpanelayout.widget.SlidingPaneLayout.PanelSlideListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onPanelClosed:(Landroid/view/View;)V:GetOnPanelClosed_Landroid_view_View_Handler:AndroidX.SlidingPaneLayout.Widget.SlidingPaneLayout+IPanelSlideListenerInvoker, Xamarin.AndroidX.SlidingPaneLayout\n" +
-			"n_onPanelOpened:(Landroid/view/View;)V:GetOnPanelOpened_Landroid_view_View_Handler:AndroidX.SlidingPaneLayout.Widget.SlidingPaneLayout+IPanelSlideListenerInvoker, Xamarin.AndroidX.SlidingPaneLayout\n" +
-			"n_onPanelSlide:(Landroid/view/View;F)V:GetOnPanelSlide_Landroid_view_View_FHandler:AndroidX.SlidingPaneLayout.Widget.SlidingPaneLayout+IPanelSlideListenerInvoker, Xamarin.AndroidX.SlidingPaneLayout\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.SlidingPaneLayout.Widget.SlidingPaneLayout+IPanelSlideListenerImplementor, Xamarin.AndroidX.SlidingPaneLayout", SlidingPaneLayout_PanelSlideListenerImplementor.class, __md_methods);
-	}
 
 	public SlidingPaneLayout_PanelSlideListenerImplementor ()
 	{

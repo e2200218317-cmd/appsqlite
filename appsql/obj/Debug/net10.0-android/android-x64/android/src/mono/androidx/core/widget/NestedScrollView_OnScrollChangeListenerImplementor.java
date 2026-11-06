@@ -7,14 +7,6 @@ public class NestedScrollView_OnScrollChangeListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.core.widget.NestedScrollView.OnScrollChangeListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onScrollChange:(Landroidx/core/widget/NestedScrollView;IIII)V:GetOnScrollChange_Landroidx_core_widget_NestedScrollView_IIIIHandler:AndroidX.Core.Widget.NestedScrollView+IOnScrollChangeListenerInvoker, Xamarin.AndroidX.Core\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.Core.Widget.NestedScrollView+IOnScrollChangeListenerImplementor, Xamarin.AndroidX.Core", NestedScrollView_OnScrollChangeListenerImplementor.class, __md_methods);
-	}
 
 	public NestedScrollView_OnScrollChangeListenerImplementor ()
 	{

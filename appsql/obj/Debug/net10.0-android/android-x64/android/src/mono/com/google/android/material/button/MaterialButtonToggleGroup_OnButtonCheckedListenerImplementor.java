@@ -7,14 +7,6 @@ public class MaterialButtonToggleGroup_OnButtonCheckedListenerImplementor
 		mono.android.IGCUserPeer,
 		com.google.android.material.button.MaterialButtonToggleGroup.OnButtonCheckedListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onButtonChecked:(Lcom/google/android/material/button/MaterialButtonToggleGroup;IZ)V:GetOnButtonChecked_Lcom_google_android_material_button_MaterialButtonToggleGroup_IZHandler:Google.Android.Material.Button.MaterialButtonToggleGroup+IOnButtonCheckedListenerInvoker, Xamarin.Google.Android.Material\n" +
-			"";
-		mono.android.Runtime.register ("Google.Android.Material.Button.MaterialButtonToggleGroup+IOnButtonCheckedListenerImplementor, Xamarin.Google.Android.Material", MaterialButtonToggleGroup_OnButtonCheckedListenerImplementor.class, __md_methods);
-	}
 
 	public MaterialButtonToggleGroup_OnButtonCheckedListenerImplementor ()
 	{

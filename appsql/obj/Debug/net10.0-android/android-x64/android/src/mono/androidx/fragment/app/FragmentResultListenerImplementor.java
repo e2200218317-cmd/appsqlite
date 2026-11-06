@@ -7,14 +7,6 @@ public class FragmentResultListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.fragment.app.FragmentResultListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onFragmentResult:(Ljava/lang/String;Landroid/os/Bundle;)V:GetOnFragmentResult_Ljava_lang_String_Landroid_os_Bundle_Handler:AndroidX.Fragment.App.IFragmentResultListenerInvoker, Xamarin.AndroidX.Fragment\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.Fragment.App.IFragmentResultListenerImplementor, Xamarin.AndroidX.Fragment", FragmentResultListenerImplementor.class, __md_methods);
-	}
 
 	public FragmentResultListenerImplementor ()
 	{

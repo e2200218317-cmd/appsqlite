@@ -6,15 +6,6 @@ public class ShellSearchViewAdapter_CustomFilter
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_performFiltering:(Ljava/lang/CharSequence;)Landroid/widget/Filter$FilterResults;:GetPerformFiltering_Ljava_lang_CharSequence_Handler\n" +
-			"n_publishResults:(Ljava/lang/CharSequence;Landroid/widget/Filter$FilterResults;)V:GetPublishResults_Ljava_lang_CharSequence_Landroid_widget_Filter_FilterResults_Handler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Platform.Compatibility.ShellSearchViewAdapter+CustomFilter, Microsoft.Maui.Controls", ShellSearchViewAdapter_CustomFilter.class, __md_methods);
-	}
 
 	public ShellSearchViewAdapter_CustomFilter ()
 	{

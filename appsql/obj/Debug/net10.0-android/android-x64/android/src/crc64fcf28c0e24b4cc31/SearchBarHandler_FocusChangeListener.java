@@ -7,14 +7,6 @@ public class SearchBarHandler_FocusChangeListener
 		mono.android.IGCUserPeer,
 		android.view.View.OnFocusChangeListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onFocusChange:(Landroid/view/View;Z)V:GetOnFocusChange_Landroid_view_View_ZHandler:Android.Views.View+IOnFocusChangeListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Handlers.SearchBarHandler+FocusChangeListener, Microsoft.Maui", SearchBarHandler_FocusChangeListener.class, __md_methods);
-	}
 
 	public SearchBarHandler_FocusChangeListener ()
 	{

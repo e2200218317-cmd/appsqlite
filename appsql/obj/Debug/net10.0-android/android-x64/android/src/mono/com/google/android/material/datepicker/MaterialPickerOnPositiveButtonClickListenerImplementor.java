@@ -7,14 +7,6 @@ public class MaterialPickerOnPositiveButtonClickListenerImplementor
 		mono.android.IGCUserPeer,
 		com.google.android.material.datepicker.MaterialPickerOnPositiveButtonClickListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onPositiveButtonClick:(Ljava/lang/Object;)V:GetOnPositiveButtonClick_Ljava_lang_Object_Handler:Google.Android.Material.DatePicker.IMaterialPickerOnPositiveButtonClickListenerInvoker, Xamarin.Google.Android.Material\n" +
-			"";
-		mono.android.Runtime.register ("Google.Android.Material.DatePicker.IMaterialPickerOnPositiveButtonClickListenerImplementor, Xamarin.Google.Android.Material", MaterialPickerOnPositiveButtonClickListenerImplementor.class, __md_methods);
-	}
 
 	public MaterialPickerOnPositiveButtonClickListenerImplementor ()
 	{

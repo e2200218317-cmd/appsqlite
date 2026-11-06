@@ -7,14 +7,6 @@ public class AppBarLayout_LiftOnScrollListenerImplementor
 		mono.android.IGCUserPeer,
 		com.google.android.material.appbar.AppBarLayout.LiftOnScrollListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onUpdate:(FI)V:GetOnUpdate_FIHandler:Google.Android.Material.AppBar.AppBarLayout+ILiftOnScrollListenerInvoker, Xamarin.Google.Android.Material\n" +
-			"";
-		mono.android.Runtime.register ("Google.Android.Material.AppBar.AppBarLayout+ILiftOnScrollListenerImplementor, Xamarin.Google.Android.Material", AppBarLayout_LiftOnScrollListenerImplementor.class, __md_methods);
-	}
 
 	public AppBarLayout_LiftOnScrollListenerImplementor ()
 	{

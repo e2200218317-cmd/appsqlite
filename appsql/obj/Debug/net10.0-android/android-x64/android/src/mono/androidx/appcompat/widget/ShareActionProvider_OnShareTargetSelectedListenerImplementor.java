@@ -7,14 +7,6 @@ public class ShareActionProvider_OnShareTargetSelectedListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.appcompat.widget.ShareActionProvider.OnShareTargetSelectedListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onShareTargetSelected:(Landroidx/appcompat/widget/ShareActionProvider;Landroid/content/Intent;)Z:GetOnShareTargetSelected_Landroidx_appcompat_widget_ShareActionProvider_Landroid_content_Intent_Handler:AndroidX.AppCompat.Widget.ShareActionProvider+IOnShareTargetSelectedListenerInvoker, Xamarin.AndroidX.AppCompat\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.AppCompat.Widget.ShareActionProvider+IOnShareTargetSelectedListenerImplementor, Xamarin.AndroidX.AppCompat", ShareActionProvider_OnShareTargetSelectedListenerImplementor.class, __md_methods);
-	}
 
 	public ShareActionProvider_OnShareTargetSelectedListenerImplementor ()
 	{

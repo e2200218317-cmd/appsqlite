@@ -7,17 +7,6 @@ public class MauiDrawable
 		mono.android.IGCUserPeer,
 		com.microsoft.maui.PlatformShadowDrawable
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onBoundsChange:(Landroid/graphics/Rect;)V:GetOnBoundsChange_Landroid_graphics_Rect_Handler\n" +
-			"n_onDraw:(Landroid/graphics/drawable/shapes/Shape;Landroid/graphics/Canvas;Landroid/graphics/Paint;)V:GetOnDraw_Landroid_graphics_drawable_shapes_Shape_Landroid_graphics_Canvas_Landroid_graphics_Paint_Handler\n" +
-			"n_canDrawShadow:()Z:GetCanDrawShadowHandler:Microsoft.Maui.IPlatformShadowDrawableInvoker, Microsoft.Maui\n" +
-			"n_drawShadow:(Landroid/graphics/Canvas;Landroid/graphics/Paint;Landroid/graphics/Path;)V:GetDrawShadow_Landroid_graphics_Canvas_Landroid_graphics_Paint_Landroid_graphics_Path_Handler:Microsoft.Maui.IPlatformShadowDrawableInvoker, Microsoft.Maui\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Graphics.MauiDrawable, Microsoft.Maui", MauiDrawable.class, __md_methods);
-	}
 
 	public MauiDrawable ()
 	{

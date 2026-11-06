@@ -7,15 +7,6 @@ public class MauiDatePicker
 		mono.android.IGCUserPeer,
 		android.view.View.OnClickListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_getDefaultMovementMethod:()Landroid/text/method/MovementMethod;:GetGetDefaultMovementMethodHandler\n" +
-			"n_onClick:(Landroid/view/View;)V:GetOnClick_Landroid_view_View_Handler:Android.Views.View+IOnClickListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Platform.MauiDatePicker, Microsoft.Maui", MauiDatePicker.class, __md_methods);
-	}
 
 	public MauiDatePicker (android.content.Context p0)
 	{

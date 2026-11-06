@@ -6,19 +6,6 @@ public class DataChangeObserver
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onChanged:()V:GetOnChangedHandler\n" +
-			"n_onItemRangeInserted:(II)V:GetOnItemRangeInserted_IIHandler\n" +
-			"n_onItemRangeChanged:(II)V:GetOnItemRangeChanged_IIHandler\n" +
-			"n_onItemRangeChanged:(IILjava/lang/Object;)V:GetOnItemRangeChanged_IILjava_lang_Object_Handler\n" +
-			"n_onItemRangeRemoved:(II)V:GetOnItemRangeRemoved_IIHandler\n" +
-			"n_onItemRangeMoved:(III)V:GetOnItemRangeMoved_IIIHandler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Handlers.Items.DataChangeObserver, Microsoft.Maui.Controls", DataChangeObserver.class, __md_methods);
-	}
 
 	public DataChangeObserver ()
 	{

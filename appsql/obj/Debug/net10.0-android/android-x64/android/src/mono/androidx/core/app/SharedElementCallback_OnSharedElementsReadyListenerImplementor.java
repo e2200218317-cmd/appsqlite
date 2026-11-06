@@ -7,14 +7,6 @@ public class SharedElementCallback_OnSharedElementsReadyListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.core.app.SharedElementCallback.OnSharedElementsReadyListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onSharedElementsReady:()V:GetOnSharedElementsReadyHandler:AndroidX.Core.App.SharedElementCallback+IOnSharedElementsReadyListenerInvoker, Xamarin.AndroidX.Core\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.Core.App.SharedElementCallback+IOnSharedElementsReadyListenerImplementor, Xamarin.AndroidX.Core", SharedElementCallback_OnSharedElementsReadyListenerImplementor.class, __md_methods);
-	}
 
 	public SharedElementCallback_OnSharedElementsReadyListenerImplementor ()
 	{

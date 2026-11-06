@@ -7,14 +7,6 @@ public class InputConnectionCompat_OnCommitContentListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.core.view.inputmethod.InputConnectionCompat.OnCommitContentListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onCommitContent:(Landroidx/core/view/inputmethod/InputContentInfoCompat;ILandroid/os/Bundle;)Z:GetOnCommitContent_Landroidx_core_view_inputmethod_InputContentInfoCompat_ILandroid_os_Bundle_Handler:AndroidX.Core.View.InputMethod.InputConnectionCompat+IOnCommitContentListenerInvoker, Xamarin.AndroidX.Core\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.Core.View.InputMethod.InputConnectionCompat+IOnCommitContentListenerImplementor, Xamarin.AndroidX.Core", InputConnectionCompat_OnCommitContentListenerImplementor.class, __md_methods);
-	}
 
 	public InputConnectionCompat_OnCommitContentListenerImplementor ()
 	{

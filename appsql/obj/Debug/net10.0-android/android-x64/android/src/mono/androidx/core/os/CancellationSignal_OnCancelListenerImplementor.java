@@ -7,14 +7,6 @@ public class CancellationSignal_OnCancelListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.core.os.CancellationSignal.OnCancelListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onCancel:()V:GetOnCancelHandler:AndroidX.Core.OS.CancellationSignal+IOnCancelListenerInvoker, Xamarin.AndroidX.Core\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.Core.OS.CancellationSignal+IOnCancelListenerImplementor, Xamarin.AndroidX.Core", CancellationSignal_OnCancelListenerImplementor.class, __md_methods);
-	}
 
 	public CancellationSignal_OnCancelListenerImplementor ()
 	{

@@ -6,15 +6,6 @@ public class SwipeViewPager
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onInterceptTouchEvent:(Landroid/view/MotionEvent;)Z:GetOnInterceptTouchEvent_Landroid_view_MotionEvent_Handler\n" +
-			"n_onTouchEvent:(Landroid/view/MotionEvent;)Z:GetOnTouchEvent_Landroid_view_MotionEvent_Handler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Platform.SwipeViewPager, Microsoft.Maui", SwipeViewPager.class, __md_methods);
-	}
 
 	public SwipeViewPager (android.content.Context p0)
 	{

@@ -7,14 +7,6 @@ public class NavController_OnDestinationChangedListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.navigation.NavController.OnDestinationChangedListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onDestinationChanged:(Landroidx/navigation/NavController;Landroidx/navigation/NavDestination;Landroid/os/Bundle;)V:GetOnDestinationChanged_Landroidx_navigation_NavController_Landroidx_navigation_NavDestination_Landroid_os_Bundle_Handler:AndroidX.Navigation.NavController+IOnDestinationChangedListenerInvoker, Xamarin.AndroidX.Navigation.Runtime.Android\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.Navigation.NavController+IOnDestinationChangedListenerImplementor, Xamarin.AndroidX.Navigation.Runtime.Android", NavController_OnDestinationChangedListenerImplementor.class, __md_methods);
-	}
 
 	public NavController_OnDestinationChangedListenerImplementor ()
 	{

@@ -8,8 +8,8 @@
         <constructor name="PlatformGraphicsView" method="n_.ctor:(Landroid/content/Context;)V:" jni_signature="(Landroid/content/Context;)V" managed_parameters="Android.Content.Context, Mono.Android" params="android.content.Context p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
       </constructors>
       <methods>
-        <method name="draw" method="n_draw:(Landroid/graphics/Canvas;)V:GetDraw_Landroid_graphics_Canvas_Handler" jni_signature="(Landroid/graphics/Canvas;)V" params="android.graphics.Canvas p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
-        <method name="onSizeChanged" method="n_onSizeChanged:(IIII)V:GetOnSizeChanged_IIIIHandler" jni_signature="(IIII)V" params="int p0, int p1, int p2, int p3" retval="void" is_dynamically_registered="True" super_call="p0, p1, p2, p3" activate_call="p0, p1, p2, p3" />
+        <method name="draw" method="n_draw:(Landroid/graphics/Canvas;)V:GetDraw_Landroid_graphics_Canvas_Handler" jni_signature="(Landroid/graphics/Canvas;)V" params="android.graphics.Canvas p0" retval="void" super_call="p0" activate_call="p0" />
+        <method name="onSizeChanged" method="n_onSizeChanged:(IIII)V:GetOnSizeChanged_IIIIHandler" jni_signature="(IIII)V" params="int p0, int p1, int p2, int p3" retval="void" super_call="p0, p1, p2, p3" activate_call="p0, p1, p2, p3" />
       </methods>
     </type>
   </jcw-types>

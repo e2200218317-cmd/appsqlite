@@ -6,14 +6,6 @@ public class MauiPickerBase
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_getDefaultMovementMethod:()Landroid/text/method/MovementMethod;:GetGetDefaultMovementMethodHandler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Platform.MauiPickerBase, Microsoft.Maui", MauiPickerBase.class, __md_methods);
-	}
 
 	public MauiPickerBase (android.content.Context p0)
 	{

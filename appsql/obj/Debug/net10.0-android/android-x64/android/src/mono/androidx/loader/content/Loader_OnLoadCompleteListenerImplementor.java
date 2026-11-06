@@ -7,14 +7,6 @@ public class Loader_OnLoadCompleteListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.loader.content.Loader.OnLoadCompleteListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onLoadComplete:(Landroidx/loader/content/Loader;Ljava/lang/Object;)V:GetOnLoadComplete_Landroidx_loader_content_Loader_Ljava_lang_Object_Handler:AndroidX.Loader.Content.Loader+IOnLoadCompleteListenerInvoker, Xamarin.AndroidX.Loader\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.Loader.Content.Loader+IOnLoadCompleteListenerImplementor, Xamarin.AndroidX.Loader", Loader_OnLoadCompleteListenerImplementor.class, __md_methods);
-	}
 
 	public Loader_OnLoadCompleteListenerImplementor ()
 	{

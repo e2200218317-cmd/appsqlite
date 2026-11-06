@@ -7,15 +7,6 @@ public class ListViewRenderer_ListViewScrollDetector
 		mono.android.IGCUserPeer,
 		android.widget.AbsListView.OnScrollListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onScroll:(Landroid/widget/AbsListView;III)V:GetOnScroll_Landroid_widget_AbsListView_IIIHandler:Android.Widget.AbsListView+IOnScrollListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
-			"n_onScrollStateChanged:(Landroid/widget/AbsListView;I)V:GetOnScrollStateChanged_Landroid_widget_AbsListView_IHandler:Android.Widget.AbsListView+IOnScrollListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Handlers.Compatibility.ListViewRenderer+ListViewScrollDetector, Microsoft.Maui.Controls", ListViewRenderer_ListViewScrollDetector.class, __md_methods);
-	}
 
 	public ListViewRenderer_ListViewScrollDetector ()
 	{

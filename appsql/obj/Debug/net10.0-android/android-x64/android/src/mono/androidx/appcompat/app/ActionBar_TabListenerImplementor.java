@@ -7,16 +7,6 @@ public class ActionBar_TabListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.appcompat.app.ActionBar.TabListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onTabReselected:(Landroidx/appcompat/app/ActionBar$Tab;Landroidx/fragment/app/FragmentTransaction;)V:GetOnTabReselected_Landroidx_appcompat_app_ActionBar_Tab_Landroidx_fragment_app_FragmentTransaction_Handler:AndroidX.AppCompat.App.ActionBar+ITabListenerInvoker, Xamarin.AndroidX.AppCompat\n" +
-			"n_onTabSelected:(Landroidx/appcompat/app/ActionBar$Tab;Landroidx/fragment/app/FragmentTransaction;)V:GetOnTabSelected_Landroidx_appcompat_app_ActionBar_Tab_Landroidx_fragment_app_FragmentTransaction_Handler:AndroidX.AppCompat.App.ActionBar+ITabListenerInvoker, Xamarin.AndroidX.AppCompat\n" +
-			"n_onTabUnselected:(Landroidx/appcompat/app/ActionBar$Tab;Landroidx/fragment/app/FragmentTransaction;)V:GetOnTabUnselected_Landroidx_appcompat_app_ActionBar_Tab_Landroidx_fragment_app_FragmentTransaction_Handler:AndroidX.AppCompat.App.ActionBar+ITabListenerInvoker, Xamarin.AndroidX.AppCompat\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.AppCompat.App.ActionBar+ITabListenerImplementor, Xamarin.AndroidX.AppCompat", ActionBar_TabListenerImplementor.class, __md_methods);
-	}
 
 	public ActionBar_TabListenerImplementor ()
 	{

@@ -6,14 +6,6 @@ public class BatteryBroadcastReceiver
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onReceive:(Landroid/content/Context;Landroid/content/Intent;)V:GetOnReceive_Landroid_content_Context_Landroid_content_Intent_Handler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Devices.BatteryBroadcastReceiver, Microsoft.Maui.Essentials", BatteryBroadcastReceiver.class, __md_methods);
-	}
 
 	public BatteryBroadcastReceiver ()
 	{

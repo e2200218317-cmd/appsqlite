@@ -6,14 +6,6 @@ public class StartSingleSnapHelper
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_calculateDistanceToFinalSnap:(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;Landroid/view/View;)[I:GetCalculateDistanceToFinalSnap_Landroidx_recyclerview_widget_RecyclerView_LayoutManager_Landroid_view_View_Handler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Handlers.Items.StartSingleSnapHelper, Microsoft.Maui.Controls", StartSingleSnapHelper.class, __md_methods);
-	}
 
 	public StartSingleSnapHelper ()
 	{

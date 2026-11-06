@@ -7,14 +7,6 @@ public class ViewPropertyAnimatorUpdateListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.core.view.ViewPropertyAnimatorUpdateListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onAnimationUpdate:(Landroid/view/View;)V:GetOnAnimationUpdate_Landroid_view_View_Handler:AndroidX.Core.View.IViewPropertyAnimatorUpdateListenerInvoker, Xamarin.AndroidX.Core\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.Core.View.IViewPropertyAnimatorUpdateListenerImplementor, Xamarin.AndroidX.Core", ViewPropertyAnimatorUpdateListenerImplementor.class, __md_methods);
-	}
 
 	public ViewPropertyAnimatorUpdateListenerImplementor ()
 	{

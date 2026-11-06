@@ -7,14 +7,6 @@ public class RecyclerView_RecyclerListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.recyclerview.widget.RecyclerView.RecyclerListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onViewRecycled:(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V:GetOnViewRecycled_Landroidx_recyclerview_widget_RecyclerView_ViewHolder_Handler:AndroidX.RecyclerView.Widget.RecyclerView+IRecyclerListenerInvoker, Xamarin.AndroidX.RecyclerView\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.RecyclerView.Widget.RecyclerView+IRecyclerListenerImplementor, Xamarin.AndroidX.RecyclerView", RecyclerView_RecyclerListenerImplementor.class, __md_methods);
-	}
 
 	public RecyclerView_RecyclerListenerImplementor ()
 	{

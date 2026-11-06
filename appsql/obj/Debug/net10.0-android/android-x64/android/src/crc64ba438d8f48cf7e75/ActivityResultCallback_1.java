@@ -7,14 +7,6 @@ public class ActivityResultCallback_1
 		mono.android.IGCUserPeer,
 		androidx.activity.result.ActivityResultCallback
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onActivityResult:(Ljava/lang/Object;)V:GetOnActivityResult_Ljava_lang_Object_Handler:AndroidX.Activity.Result.IActivityResultCallbackInvoker, Xamarin.AndroidX.Activity\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.ApplicationModel.ActivityResultCallback`1, Microsoft.Maui.Essentials", ActivityResultCallback_1.class, __md_methods);
-	}
 
 	public ActivityResultCallback_1 ()
 	{

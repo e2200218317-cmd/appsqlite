@@ -6,14 +6,6 @@ public class ColorChangeRevealDrawable
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_draw:(Landroid/graphics/Canvas;)V:GetDraw_Landroid_graphics_Canvas_Handler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Platform.ColorChangeRevealDrawable, Microsoft.Maui.Controls", ColorChangeRevealDrawable.class, __md_methods);
-	}
 
 	public ColorChangeRevealDrawable ()
 	{

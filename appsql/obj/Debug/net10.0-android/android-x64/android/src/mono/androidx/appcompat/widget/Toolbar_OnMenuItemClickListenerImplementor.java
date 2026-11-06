@@ -7,14 +7,6 @@ public class Toolbar_OnMenuItemClickListenerImplementor
 		mono.android.IGCUserPeer,
 		androidx.appcompat.widget.Toolbar.OnMenuItemClickListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onMenuItemClick:(Landroid/view/MenuItem;)Z:GetOnMenuItemClick_Landroid_view_MenuItem_Handler:AndroidX.AppCompat.Widget.Toolbar+IOnMenuItemClickListenerInvoker, Xamarin.AndroidX.AppCompat\n" +
-			"";
-		mono.android.Runtime.register ("AndroidX.AppCompat.Widget.Toolbar+IOnMenuItemClickListenerImplementor, Xamarin.AndroidX.AppCompat", Toolbar_OnMenuItemClickListenerImplementor.class, __md_methods);
-	}
 
 	public Toolbar_OnMenuItemClickListenerImplementor ()
 	{

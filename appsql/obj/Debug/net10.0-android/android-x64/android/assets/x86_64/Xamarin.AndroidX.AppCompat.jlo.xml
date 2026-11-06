@@ -9,7 +9,7 @@
         <constructor name="Toolbar_NavigationOnClickEventDispatcher" method="n_.ctor:(Landroidx/appcompat/widget/Toolbar;)V:" jni_signature="(Landroidx/appcompat/widget/Toolbar;)V" managed_parameters="AndroidX.AppCompat.Widget.Toolbar, Xamarin.AndroidX.AppCompat" params="androidx.appcompat.widget.Toolbar p0" retval="void" is_dynamically_registered="True" super_call="" activate_call="p0" />
       </constructors>
       <methods>
-        <method name="onClick" method="n_onClick:(Landroid/view/View;)V:GetOnClick_Landroid_view_View_Handler:Android.Views.View+IOnClickListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/view/View;)V" params="android.view.View p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onClick" method="n_onClick:(Landroid/view/View;)V:GetOnClick_Landroid_view_View_Handler:Android.Views.View+IOnClickListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/view/View;)V" params="android.view.View p0" retval="void" super_call="p0" activate_call="p0" />
       </methods>
     </type>
     <type name="Toolbar_OnMenuItemClickListenerImplementor" package="mono.androidx.appcompat.widget" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.AppCompat.Widget.Toolbar+IOnMenuItemClickListenerImplementor, Xamarin.AndroidX.AppCompat">
@@ -20,7 +20,7 @@
         <constructor name="Toolbar_OnMenuItemClickListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
       </constructors>
       <methods>
-        <method name="onMenuItemClick" method="n_onMenuItemClick:(Landroid/view/MenuItem;)Z:GetOnMenuItemClick_Landroid_view_MenuItem_Handler:AndroidX.AppCompat.Widget.Toolbar+IOnMenuItemClickListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(Landroid/view/MenuItem;)Z" params="android.view.MenuItem p0" retval="boolean" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onMenuItemClick" method="n_onMenuItemClick:(Landroid/view/MenuItem;)Z:GetOnMenuItemClick_Landroid_view_MenuItem_Handler:AndroidX.AppCompat.Widget.Toolbar+IOnMenuItemClickListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(Landroid/view/MenuItem;)Z" params="android.view.MenuItem p0" retval="boolean" super_call="p0" activate_call="p0" />
       </methods>
     </type>
     <type name="ActionMenuView_OnMenuItemClickListenerImplementor" package="mono.androidx.appcompat.widget" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.AppCompat.Widget.ActionMenuView+IOnMenuItemClickListenerImplementor, Xamarin.AndroidX.AppCompat">
@@ -31,7 +31,7 @@
         <constructor name="ActionMenuView_OnMenuItemClickListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
       </constructors>
       <methods>
-        <method name="onMenuItemClick" method="n_onMenuItemClick:(Landroid/view/MenuItem;)Z:GetOnMenuItemClick_Landroid_view_MenuItem_Handler:AndroidX.AppCompat.Widget.ActionMenuView+IOnMenuItemClickListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(Landroid/view/MenuItem;)Z" params="android.view.MenuItem p0" retval="boolean" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onMenuItemClick" method="n_onMenuItemClick:(Landroid/view/MenuItem;)Z:GetOnMenuItemClick_Landroid_view_MenuItem_Handler:AndroidX.AppCompat.Widget.ActionMenuView+IOnMenuItemClickListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(Landroid/view/MenuItem;)Z" params="android.view.MenuItem p0" retval="boolean" super_call="p0" activate_call="p0" />
       </methods>
     </type>
     <type name="ContentFrameLayout_OnAttachListenerImplementor" package="mono.androidx.appcompat.widget" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.AppCompat.Widget.ContentFrameLayout+IOnAttachListenerImplementor, Xamarin.AndroidX.AppCompat">
@@ -42,8 +42,8 @@
         <constructor name="ContentFrameLayout_OnAttachListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
       </constructors>
       <methods>
-        <method name="onAttachedFromWindow" method="n_onAttachedFromWindow:()V:GetOnAttachedFromWindowHandler:AndroidX.AppCompat.Widget.ContentFrameLayout+IOnAttachListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="()V" retval="void" is_dynamically_registered="True" />
-        <method name="onDetachedFromWindow" method="n_onDetachedFromWindow:()V:GetOnDetachedFromWindowHandler:AndroidX.AppCompat.Widget.ContentFrameLayout+IOnAttachListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="()V" retval="void" is_dynamically_registered="True" />
+        <method name="onAttachedFromWindow" method="n_onAttachedFromWindow:()V:GetOnAttachedFromWindowHandler:AndroidX.AppCompat.Widget.ContentFrameLayout+IOnAttachListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="()V" retval="void" />
+        <method name="onDetachedFromWindow" method="n_onDetachedFromWindow:()V:GetOnDetachedFromWindowHandler:AndroidX.AppCompat.Widget.ContentFrameLayout+IOnAttachListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="()V" retval="void" />
       </methods>
     </type>
     <type name="FitWindowsViewGroup_OnFitSystemWindowsListenerImplementor" package="mono.androidx.appcompat.widget" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.AppCompat.Widget.IFitWindowsViewGroupOnFitSystemWindowsListenerImplementor, Xamarin.AndroidX.AppCompat">
@@ -54,7 +54,7 @@
         <constructor name="FitWindowsViewGroup_OnFitSystemWindowsListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
       </constructors>
       <methods>
-        <method name="onFitSystemWindows" method="n_onFitSystemWindows:(Landroid/graphics/Rect;)V:GetOnFitSystemWindows_Landroid_graphics_Rect_Handler:AndroidX.AppCompat.Widget.IFitWindowsViewGroupOnFitSystemWindowsListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(Landroid/graphics/Rect;)V" params="android.graphics.Rect p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onFitSystemWindows" method="n_onFitSystemWindows:(Landroid/graphics/Rect;)V:GetOnFitSystemWindows_Landroid_graphics_Rect_Handler:AndroidX.AppCompat.Widget.IFitWindowsViewGroupOnFitSystemWindowsListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(Landroid/graphics/Rect;)V" params="android.graphics.Rect p0" retval="void" super_call="p0" activate_call="p0" />
       </methods>
     </type>
     <type name="MenuItemHoverListenerImplementor" package="mono.androidx.appcompat.widget" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.AppCompat.Widget.IMenuItemHoverListenerImplementor, Xamarin.AndroidX.AppCompat">
@@ -65,8 +65,8 @@
         <constructor name="MenuItemHoverListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
       </constructors>
       <methods>
-        <method name="onItemHoverEnter" method="n_onItemHoverEnter:(Landroidx/appcompat/view/menu/MenuBuilder;Landroid/view/MenuItem;)V:GetOnItemHoverEnter_Landroidx_appcompat_view_menu_MenuBuilder_Landroid_view_MenuItem_Handler:AndroidX.AppCompat.Widget.IMenuItemHoverListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(Landroidx/appcompat/view/menu/MenuBuilder;Landroid/view/MenuItem;)V" params="androidx.appcompat.view.menu.MenuBuilder p0, android.view.MenuItem p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
-        <method name="onItemHoverExit" method="n_onItemHoverExit:(Landroidx/appcompat/view/menu/MenuBuilder;Landroid/view/MenuItem;)V:GetOnItemHoverExit_Landroidx_appcompat_view_menu_MenuBuilder_Landroid_view_MenuItem_Handler:AndroidX.AppCompat.Widget.IMenuItemHoverListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(Landroidx/appcompat/view/menu/MenuBuilder;Landroid/view/MenuItem;)V" params="androidx.appcompat.view.menu.MenuBuilder p0, android.view.MenuItem p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onItemHoverEnter" method="n_onItemHoverEnter:(Landroidx/appcompat/view/menu/MenuBuilder;Landroid/view/MenuItem;)V:GetOnItemHoverEnter_Landroidx_appcompat_view_menu_MenuBuilder_Landroid_view_MenuItem_Handler:AndroidX.AppCompat.Widget.IMenuItemHoverListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(Landroidx/appcompat/view/menu/MenuBuilder;Landroid/view/MenuItem;)V" params="androidx.appcompat.view.menu.MenuBuilder p0, android.view.MenuItem p1" retval="void" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onItemHoverExit" method="n_onItemHoverExit:(Landroidx/appcompat/view/menu/MenuBuilder;Landroid/view/MenuItem;)V:GetOnItemHoverExit_Landroidx_appcompat_view_menu_MenuBuilder_Landroid_view_MenuItem_Handler:AndroidX.AppCompat.Widget.IMenuItemHoverListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(Landroidx/appcompat/view/menu/MenuBuilder;Landroid/view/MenuItem;)V" params="androidx.appcompat.view.menu.MenuBuilder p0, android.view.MenuItem p1" retval="void" super_call="p0, p1" activate_call="p0, p1" />
       </methods>
     </type>
     <type name="PopupMenu_OnDismissListenerImplementor" package="mono.androidx.appcompat.widget" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.AppCompat.Widget.PopupMenu+IOnDismissListenerImplementor, Xamarin.AndroidX.AppCompat">
@@ -77,7 +77,7 @@
         <constructor name="PopupMenu_OnDismissListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
       </constructors>
       <methods>
-        <method name="onDismiss" method="n_onDismiss:(Landroidx/appcompat/widget/PopupMenu;)V:GetOnDismiss_Landroidx_appcompat_widget_PopupMenu_Handler:AndroidX.AppCompat.Widget.PopupMenu+IOnDismissListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(Landroidx/appcompat/widget/PopupMenu;)V" params="androidx.appcompat.widget.PopupMenu p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onDismiss" method="n_onDismiss:(Landroidx/appcompat/widget/PopupMenu;)V:GetOnDismiss_Landroidx_appcompat_widget_PopupMenu_Handler:AndroidX.AppCompat.Widget.PopupMenu+IOnDismissListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(Landroidx/appcompat/widget/PopupMenu;)V" params="androidx.appcompat.widget.PopupMenu p0" retval="void" super_call="p0" activate_call="p0" />
       </methods>
     </type>
     <type name="PopupMenu_OnMenuItemClickListenerImplementor" package="mono.androidx.appcompat.widget" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.AppCompat.Widget.PopupMenu+IOnMenuItemClickListenerImplementor, Xamarin.AndroidX.AppCompat">
@@ -88,7 +88,7 @@
         <constructor name="PopupMenu_OnMenuItemClickListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
       </constructors>
       <methods>
-        <method name="onMenuItemClick" method="n_onMenuItemClick:(Landroid/view/MenuItem;)Z:GetOnMenuItemClick_Landroid_view_MenuItem_Handler:AndroidX.AppCompat.Widget.PopupMenu+IOnMenuItemClickListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(Landroid/view/MenuItem;)Z" params="android.view.MenuItem p0" retval="boolean" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onMenuItemClick" method="n_onMenuItemClick:(Landroid/view/MenuItem;)Z:GetOnMenuItemClick_Landroid_view_MenuItem_Handler:AndroidX.AppCompat.Widget.PopupMenu+IOnMenuItemClickListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(Landroid/view/MenuItem;)Z" params="android.view.MenuItem p0" retval="boolean" super_call="p0" activate_call="p0" />
       </methods>
     </type>
     <type name="SearchView_OnCloseListenerImplementor" package="mono.androidx.appcompat.widget" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.AppCompat.Widget.SearchView+IOnCloseListenerImplementor, Xamarin.AndroidX.AppCompat">
@@ -99,7 +99,7 @@
         <constructor name="SearchView_OnCloseListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
       </constructors>
       <methods>
-        <method name="onClose" method="n_onClose:()Z:GetOnCloseHandler:AndroidX.AppCompat.Widget.SearchView+IOnCloseListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="()Z" retval="boolean" is_dynamically_registered="True" />
+        <method name="onClose" method="n_onClose:()Z:GetOnCloseHandler:AndroidX.AppCompat.Widget.SearchView+IOnCloseListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="()Z" retval="boolean" />
       </methods>
     </type>
     <type name="SearchView_OnQueryTextListenerImplementor" package="mono.androidx.appcompat.widget" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.AppCompat.Widget.SearchView+IOnQueryTextListenerImplementor, Xamarin.AndroidX.AppCompat">
@@ -110,8 +110,8 @@
         <constructor name="SearchView_OnQueryTextListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
       </constructors>
       <methods>
-        <method name="onQueryTextChange" method="n_onQueryTextChange:(Ljava/lang/String;)Z:GetOnQueryTextChange_Ljava_lang_String_Handler:AndroidX.AppCompat.Widget.SearchView+IOnQueryTextListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(Ljava/lang/String;)Z" params="java.lang.String p0" retval="boolean" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
-        <method name="onQueryTextSubmit" method="n_onQueryTextSubmit:(Ljava/lang/String;)Z:GetOnQueryTextSubmit_Ljava_lang_String_Handler:AndroidX.AppCompat.Widget.SearchView+IOnQueryTextListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(Ljava/lang/String;)Z" params="java.lang.String p0" retval="boolean" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onQueryTextChange" method="n_onQueryTextChange:(Ljava/lang/String;)Z:GetOnQueryTextChange_Ljava_lang_String_Handler:AndroidX.AppCompat.Widget.SearchView+IOnQueryTextListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(Ljava/lang/String;)Z" params="java.lang.String p0" retval="boolean" super_call="p0" activate_call="p0" />
+        <method name="onQueryTextSubmit" method="n_onQueryTextSubmit:(Ljava/lang/String;)Z:GetOnQueryTextSubmit_Ljava_lang_String_Handler:AndroidX.AppCompat.Widget.SearchView+IOnQueryTextListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(Ljava/lang/String;)Z" params="java.lang.String p0" retval="boolean" super_call="p0" activate_call="p0" />
       </methods>
     </type>
     <type name="SearchView_OnSuggestionListenerImplementor" package="mono.androidx.appcompat.widget" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.AppCompat.Widget.SearchView+IOnSuggestionListenerImplementor, Xamarin.AndroidX.AppCompat">
@@ -122,8 +122,8 @@
         <constructor name="SearchView_OnSuggestionListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
       </constructors>
       <methods>
-        <method name="onSuggestionClick" method="n_onSuggestionClick:(I)Z:GetOnSuggestionClick_IHandler:AndroidX.AppCompat.Widget.SearchView+IOnSuggestionListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(I)Z" params="int p0" retval="boolean" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
-        <method name="onSuggestionSelect" method="n_onSuggestionSelect:(I)Z:GetOnSuggestionSelect_IHandler:AndroidX.AppCompat.Widget.SearchView+IOnSuggestionListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(I)Z" params="int p0" retval="boolean" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onSuggestionClick" method="n_onSuggestionClick:(I)Z:GetOnSuggestionClick_IHandler:AndroidX.AppCompat.Widget.SearchView+IOnSuggestionListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(I)Z" params="int p0" retval="boolean" super_call="p0" activate_call="p0" />
+        <method name="onSuggestionSelect" method="n_onSuggestionSelect:(I)Z:GetOnSuggestionSelect_IHandler:AndroidX.AppCompat.Widget.SearchView+IOnSuggestionListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(I)Z" params="int p0" retval="boolean" super_call="p0" activate_call="p0" />
       </methods>
     </type>
     <type name="ShareActionProvider_OnShareTargetSelectedListenerImplementor" package="mono.androidx.appcompat.widget" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.AppCompat.Widget.ShareActionProvider+IOnShareTargetSelectedListenerImplementor, Xamarin.AndroidX.AppCompat">
@@ -134,7 +134,7 @@
         <constructor name="ShareActionProvider_OnShareTargetSelectedListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
       </constructors>
       <methods>
-        <method name="onShareTargetSelected" method="n_onShareTargetSelected:(Landroidx/appcompat/widget/ShareActionProvider;Landroid/content/Intent;)Z:GetOnShareTargetSelected_Landroidx_appcompat_widget_ShareActionProvider_Landroid_content_Intent_Handler:AndroidX.AppCompat.Widget.ShareActionProvider+IOnShareTargetSelectedListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(Landroidx/appcompat/widget/ShareActionProvider;Landroid/content/Intent;)Z" params="androidx.appcompat.widget.ShareActionProvider p0, android.content.Intent p1" retval="boolean" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onShareTargetSelected" method="n_onShareTargetSelected:(Landroidx/appcompat/widget/ShareActionProvider;Landroid/content/Intent;)Z:GetOnShareTargetSelected_Landroidx_appcompat_widget_ShareActionProvider_Landroid_content_Intent_Handler:AndroidX.AppCompat.Widget.ShareActionProvider+IOnShareTargetSelectedListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(Landroidx/appcompat/widget/ShareActionProvider;Landroid/content/Intent;)Z" params="androidx.appcompat.widget.ShareActionProvider p0, android.content.Intent p1" retval="boolean" super_call="p0, p1" activate_call="p0, p1" />
       </methods>
     </type>
     <type name="ViewStubCompat_OnInflateListenerImplementor" package="mono.androidx.appcompat.widget" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.AppCompat.Widget.ViewStubCompat+IOnInflateListenerImplementor, Xamarin.AndroidX.AppCompat">
@@ -145,7 +145,7 @@
         <constructor name="ViewStubCompat_OnInflateListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
       </constructors>
       <methods>
-        <method name="onInflate" method="n_onInflate:(Landroidx/appcompat/widget/ViewStubCompat;Landroid/view/View;)V:GetOnInflate_Landroidx_appcompat_widget_ViewStubCompat_Landroid_view_View_Handler:AndroidX.AppCompat.Widget.ViewStubCompat+IOnInflateListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(Landroidx/appcompat/widget/ViewStubCompat;Landroid/view/View;)V" params="androidx.appcompat.widget.ViewStubCompat p0, android.view.View p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onInflate" method="n_onInflate:(Landroidx/appcompat/widget/ViewStubCompat;Landroid/view/View;)V:GetOnInflate_Landroidx_appcompat_widget_ViewStubCompat_Landroid_view_View_Handler:AndroidX.AppCompat.Widget.ViewStubCompat+IOnInflateListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(Landroidx/appcompat/widget/ViewStubCompat;Landroid/view/View;)V" params="androidx.appcompat.widget.ViewStubCompat p0, android.view.View p1" retval="void" super_call="p0, p1" activate_call="p0, p1" />
       </methods>
     </type>
     <type name="AlertDialog_IDialogInterfaceOnClickListenerImplementor" package="androidx.appcompat.app" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.AppCompat.App.AlertDialog+IDialogInterfaceOnClickListenerImplementor, Xamarin.AndroidX.AppCompat">
@@ -156,7 +156,7 @@
         <constructor name="AlertDialog_IDialogInterfaceOnClickListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
       </constructors>
       <methods>
-        <method name="onClick" method="n_onClick:(Landroid/content/DialogInterface;I)V:GetOnClick_Landroid_content_DialogInterface_IHandler:Android.Content.IDialogInterfaceOnClickListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/content/DialogInterface;I)V" params="android.content.DialogInterface p0, int p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onClick" method="n_onClick:(Landroid/content/DialogInterface;I)V:GetOnClick_Landroid_content_DialogInterface_IHandler:Android.Content.IDialogInterfaceOnClickListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/content/DialogInterface;I)V" params="android.content.DialogInterface p0, int p1" retval="void" super_call="p0, p1" activate_call="p0, p1" />
       </methods>
     </type>
     <type name="AlertDialog_IDialogInterfaceOnCancelListenerImplementor" package="androidx.appcompat.app" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.AppCompat.App.AlertDialog+IDialogInterfaceOnCancelListenerImplementor, Xamarin.AndroidX.AppCompat">
@@ -167,7 +167,7 @@
         <constructor name="AlertDialog_IDialogInterfaceOnCancelListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
       </constructors>
       <methods>
-        <method name="onCancel" method="n_onCancel:(Landroid/content/DialogInterface;)V:GetOnCancel_Landroid_content_DialogInterface_Handler:Android.Content.IDialogInterfaceOnCancelListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/content/DialogInterface;)V" params="android.content.DialogInterface p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onCancel" method="n_onCancel:(Landroid/content/DialogInterface;)V:GetOnCancel_Landroid_content_DialogInterface_Handler:Android.Content.IDialogInterfaceOnCancelListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/content/DialogInterface;)V" params="android.content.DialogInterface p0" retval="void" super_call="p0" activate_call="p0" />
       </methods>
     </type>
     <type name="AlertDialog_IDialogInterfaceOnMultiChoiceClickListenerImplementor" package="androidx.appcompat.app" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.AppCompat.App.AlertDialog+IDialogInterfaceOnMultiChoiceClickListenerImplementor, Xamarin.AndroidX.AppCompat">
@@ -178,7 +178,7 @@
         <constructor name="AlertDialog_IDialogInterfaceOnMultiChoiceClickListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
       </constructors>
       <methods>
-        <method name="onClick" method="n_onClick:(Landroid/content/DialogInterface;IZ)V:GetOnClick_Landroid_content_DialogInterface_IZHandler:Android.Content.IDialogInterfaceOnMultiChoiceClickListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/content/DialogInterface;IZ)V" params="android.content.DialogInterface p0, int p1, boolean p2" retval="void" is_dynamically_registered="True" super_call="p0, p1, p2" activate_call="p0, p1, p2" />
+        <method name="onClick" method="n_onClick:(Landroid/content/DialogInterface;IZ)V:GetOnClick_Landroid_content_DialogInterface_IZHandler:Android.Content.IDialogInterfaceOnMultiChoiceClickListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/content/DialogInterface;IZ)V" params="android.content.DialogInterface p0, int p1, boolean p2" retval="void" super_call="p0, p1, p2" activate_call="p0, p1, p2" />
       </methods>
     </type>
     <type name="ActionBar_OnMenuVisibilityListenerImplementor" package="mono.androidx.appcompat.app" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.AppCompat.App.ActionBar+IOnMenuVisibilityListenerImplementor, Xamarin.AndroidX.AppCompat">
@@ -189,7 +189,7 @@
         <constructor name="ActionBar_OnMenuVisibilityListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
       </constructors>
       <methods>
-        <method name="onMenuVisibilityChanged" method="n_onMenuVisibilityChanged:(Z)V:GetOnMenuVisibilityChanged_ZHandler:AndroidX.AppCompat.App.ActionBar+IOnMenuVisibilityListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(Z)V" params="boolean p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onMenuVisibilityChanged" method="n_onMenuVisibilityChanged:(Z)V:GetOnMenuVisibilityChanged_ZHandler:AndroidX.AppCompat.App.ActionBar+IOnMenuVisibilityListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(Z)V" params="boolean p0" retval="void" super_call="p0" activate_call="p0" />
       </methods>
     </type>
     <type name="ActionBar_OnNavigationListenerImplementor" package="mono.androidx.appcompat.app" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.AppCompat.App.ActionBar+IOnNavigationListenerImplementor, Xamarin.AndroidX.AppCompat">
@@ -200,7 +200,7 @@
         <constructor name="ActionBar_OnNavigationListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
       </constructors>
       <methods>
-        <method name="onNavigationItemSelected" method="n_onNavigationItemSelected:(IJ)Z:GetOnNavigationItemSelected_IJHandler:AndroidX.AppCompat.App.ActionBar+IOnNavigationListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(IJ)Z" params="int p0, long p1" retval="boolean" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onNavigationItemSelected" method="n_onNavigationItemSelected:(IJ)Z:GetOnNavigationItemSelected_IJHandler:AndroidX.AppCompat.App.ActionBar+IOnNavigationListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(IJ)Z" params="int p0, long p1" retval="boolean" super_call="p0, p1" activate_call="p0, p1" />
       </methods>
     </type>
     <type name="ActionBar_TabListenerImplementor" package="mono.androidx.appcompat.app" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.AppCompat.App.ActionBar+ITabListenerImplementor, Xamarin.AndroidX.AppCompat">
@@ -211,9 +211,9 @@
         <constructor name="ActionBar_TabListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
       </constructors>
       <methods>
-        <method name="onTabReselected" method="n_onTabReselected:(Landroidx/appcompat/app/ActionBar$Tab;Landroidx/fragment/app/FragmentTransaction;)V:GetOnTabReselected_Landroidx_appcompat_app_ActionBar_Tab_Landroidx_fragment_app_FragmentTransaction_Handler:AndroidX.AppCompat.App.ActionBar+ITabListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(Landroidx/appcompat/app/ActionBar$Tab;Landroidx/fragment/app/FragmentTransaction;)V" params="androidx.appcompat.app.ActionBar.Tab p0, androidx.fragment.app.FragmentTransaction p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
-        <method name="onTabSelected" method="n_onTabSelected:(Landroidx/appcompat/app/ActionBar$Tab;Landroidx/fragment/app/FragmentTransaction;)V:GetOnTabSelected_Landroidx_appcompat_app_ActionBar_Tab_Landroidx_fragment_app_FragmentTransaction_Handler:AndroidX.AppCompat.App.ActionBar+ITabListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(Landroidx/appcompat/app/ActionBar$Tab;Landroidx/fragment/app/FragmentTransaction;)V" params="androidx.appcompat.app.ActionBar.Tab p0, androidx.fragment.app.FragmentTransaction p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
-        <method name="onTabUnselected" method="n_onTabUnselected:(Landroidx/appcompat/app/ActionBar$Tab;Landroidx/fragment/app/FragmentTransaction;)V:GetOnTabUnselected_Landroidx_appcompat_app_ActionBar_Tab_Landroidx_fragment_app_FragmentTransaction_Handler:AndroidX.AppCompat.App.ActionBar+ITabListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(Landroidx/appcompat/app/ActionBar$Tab;Landroidx/fragment/app/FragmentTransaction;)V" params="androidx.appcompat.app.ActionBar.Tab p0, androidx.fragment.app.FragmentTransaction p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onTabReselected" method="n_onTabReselected:(Landroidx/appcompat/app/ActionBar$Tab;Landroidx/fragment/app/FragmentTransaction;)V:GetOnTabReselected_Landroidx_appcompat_app_ActionBar_Tab_Landroidx_fragment_app_FragmentTransaction_Handler:AndroidX.AppCompat.App.ActionBar+ITabListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(Landroidx/appcompat/app/ActionBar$Tab;Landroidx/fragment/app/FragmentTransaction;)V" params="androidx.appcompat.app.ActionBar.Tab p0, androidx.fragment.app.FragmentTransaction p1" retval="void" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onTabSelected" method="n_onTabSelected:(Landroidx/appcompat/app/ActionBar$Tab;Landroidx/fragment/app/FragmentTransaction;)V:GetOnTabSelected_Landroidx_appcompat_app_ActionBar_Tab_Landroidx_fragment_app_FragmentTransaction_Handler:AndroidX.AppCompat.App.ActionBar+ITabListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(Landroidx/appcompat/app/ActionBar$Tab;Landroidx/fragment/app/FragmentTransaction;)V" params="androidx.appcompat.app.ActionBar.Tab p0, androidx.fragment.app.FragmentTransaction p1" retval="void" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onTabUnselected" method="n_onTabUnselected:(Landroidx/appcompat/app/ActionBar$Tab;Landroidx/fragment/app/FragmentTransaction;)V:GetOnTabUnselected_Landroidx_appcompat_app_ActionBar_Tab_Landroidx_fragment_app_FragmentTransaction_Handler:AndroidX.AppCompat.App.ActionBar+ITabListenerInvoker, Xamarin.AndroidX.AppCompat" jni_signature="(Landroidx/appcompat/app/ActionBar$Tab;Landroidx/fragment/app/FragmentTransaction;)V" params="androidx.appcompat.app.ActionBar.Tab p0, androidx.fragment.app.FragmentTransaction p1" retval="void" super_call="p0, p1" activate_call="p0, p1" />
       </methods>
     </type>
   </jcw-types>

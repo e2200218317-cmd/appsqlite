@@ -7,14 +7,6 @@ public class MemoryCache_ResourceRemovedListenerImplementor
 		mono.android.IGCUserPeer,
 		com.bumptech.glide.load.engine.cache.MemoryCache.ResourceRemovedListener
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onResourceRemoved:(Lcom/bumptech/glide/load/engine/Resource;)V:GetOnResourceRemoved_Lcom_bumptech_glide_load_engine_Resource_Handler:Bumptech.Glide.Load.Engine.Cache.IMemoryCacheResourceRemovedListenerInvoker, Xamarin.Android.Glide\n" +
-			"";
-		mono.android.Runtime.register ("Bumptech.Glide.Load.Engine.Cache.IMemoryCacheResourceRemovedListenerImplementor, Xamarin.Android.Glide", MemoryCache_ResourceRemovedListenerImplementor.class, __md_methods);
-	}
 
 	public MemoryCache_ResourceRemovedListenerImplementor ()
 	{

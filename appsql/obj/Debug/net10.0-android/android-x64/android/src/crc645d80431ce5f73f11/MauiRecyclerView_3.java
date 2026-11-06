@@ -6,14 +6,6 @@ public class MauiRecyclerView_3
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onLayout:(ZIIII)V:GetOnLayout_ZIIIIHandler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Controls.Handlers.Items.MauiRecyclerView`3, Microsoft.Maui.Controls", MauiRecyclerView_3.class, __md_methods);
-	}
 
 	public MauiRecyclerView_3 (android.content.Context p0)
 	{

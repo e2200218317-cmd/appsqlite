@@ -8,7 +8,7 @@
         <constructor name="OnContextAvailableListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
       </constructors>
       <methods>
-        <method name="onContextAvailable" method="n_onContextAvailable:(Landroid/content/Context;)V:GetOnContextAvailable_Landroid_content_Context_Handler:AndroidX.Activity.ContextAware.IOnContextAvailableListenerInvoker, Xamarin.AndroidX.Activity" jni_signature="(Landroid/content/Context;)V" params="android.content.Context p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onContextAvailable" method="n_onContextAvailable:(Landroid/content/Context;)V:GetOnContextAvailable_Landroid_content_Context_Handler:AndroidX.Activity.ContextAware.IOnContextAvailableListenerInvoker, Xamarin.AndroidX.Activity" jni_signature="(Landroid/content/Context;)V" params="android.content.Context p0" retval="void" super_call="p0" activate_call="p0" />
       </methods>
     </type>
   </jcw-types>

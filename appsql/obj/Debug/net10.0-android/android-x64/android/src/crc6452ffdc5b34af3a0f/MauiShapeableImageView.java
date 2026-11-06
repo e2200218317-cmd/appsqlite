@@ -6,14 +6,6 @@ public class MauiShapeableImageView
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onMeasure:(II)V:GetOnMeasure_IIHandler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Platform.MauiShapeableImageView, Microsoft.Maui", MauiShapeableImageView.class, __md_methods);
-	}
 
 	public MauiShapeableImageView (android.content.Context p0)
 	{

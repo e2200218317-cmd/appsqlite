@@ -6,14 +6,6 @@ public class MauiAppCompatEditText
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onSelectionChanged:(II)V:GetOnSelectionChanged_IIHandler\n" +
-			"";
-		mono.android.Runtime.register ("Microsoft.Maui.Platform.MauiAppCompatEditText, Microsoft.Maui", MauiAppCompatEditText.class, __md_methods);
-	}
 
 	public MauiAppCompatEditText (android.content.Context p0)
 	{
