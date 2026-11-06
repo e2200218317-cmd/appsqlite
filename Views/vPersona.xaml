@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:appsql.Models"
+             x:Class="appsql.Views.vPersona"
+             Title="Personas"
+             BackgroundColor="White">
+    <Grid Padding="15" RowDefinitions="Auto,Auto,Auto,Auto,Auto,*" RowSpacing="15">
+        <Label Grid.Row="0"
+               Text="Semana 5: BASES DE DATOS LOCALES"
+               FontSize="20"
+               TextColor="Black"
+               HorizontalTextAlignment="Center" />
+
+        <Entry x:Name="txtName"
+               Grid.Row="1"
+               Placeholder="Ingresa el nombre"
+               PlaceholderColor="#BDBDBD"
+               TextColor="Black"
+               BackgroundColor="White" />
+
+        <Button x:Name="btnAgregar"
+                Grid.Row="2"
+                Text="Agregar Persona"
+                BackgroundColor="#512BD4"
+                TextColor="White"
+                CornerRadius="8"
+                Clicked="btnAgregar_Clicked" />
+
+        <Label x:Name="lblStatusMessage"
+               Grid.Row="3"
+               TextColor="Black"
+               HorizontalTextAlignment="Center" />
+
+        <Button x:Name="btnMostrar"
+                Grid.Row="4"
+                Text="Mostrar Personas"
+                BackgroundColor="#512BD4"
+                TextColor="White"
+                CornerRadius="8"
+                Clicked="btnMostrar_Clicked" />
+
+        <CollectionView x:Name="listaPersonas"
+                        Grid.Row="5"
+                        SelectionMode="None">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="models:Persona">
+                    <Grid Padding="0,8" ColumnDefinitions="*,*">
+                        <Label Grid.Column="0" Text="{Binding Id}" TextColor="Black" />
+                        <Label Grid.Column="1" Text="{Binding Nombre}" TextColor="Black" />
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>

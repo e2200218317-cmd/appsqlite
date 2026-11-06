@@ -1,0 +1,15 @@
+<api>
+  <jcw-types>
+    <type name="MainActivity" package="crc644f253a9cee5ba45c" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="crc6488302ad6e9e4df1a.MauiAppCompatActivity" partial_assembly_qualified_name="appsql.MainActivity, appsql">
+      <constructors>
+        <constructor name="MainActivity" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+        <constructor name="MainActivity" method="n_.ctor:(I)V:" jni_signature="(I)V" managed_parameters="System.Int32, System.Private.CoreLib" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </constructors>
+    </type>
+    <type name="MainApplication" package="crc644f253a9cee5ba45c" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="crc6488302ad6e9e4df1a.MauiApplication" is_application="True" partial_assembly_qualified_name="appsql.MainApplication, appsql" application_constructor="MainApplication" />
+  </jcw-types>
+  <acw-types partial-assembly-name="appsql" module-name="appsql.dll">
+    <type assembly-qualified-name="appsql.MainActivity, appsql, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="appsql.MainActivity" java-key="crc644f253a9cee5ba45c.MainActivity" managed-key="appsql.MainActivity" partial-assembly-qualified-name="appsql.MainActivity, appsql" />
+    <type assembly-qualified-name="appsql.MainApplication, appsql, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="appsql.MainApplication" java-key="crc644f253a9cee5ba45c.MainApplication" managed-key="appsql.MainApplication" partial-assembly-qualified-name="appsql.MainApplication, appsql" />
+  </acw-types>
+</api>

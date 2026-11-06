@@ -1,0 +1,10 @@
+<api type="debug" assembly-name="appsql" mvid="555a0645ec1b4970a46621d1c3f31e67">
+  <java-to-managed>
+    <entry java-name="crc644f253a9cee5ba45c/MainActivity" managed-name="appsql.MainActivity, appsql" managed-type-token-id="33554441" />
+    <entry java-name="crc644f253a9cee5ba45c/MainApplication" managed-name="appsql.MainApplication, appsql" managed-type-token-id="33554442" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="crc644f253a9cee5ba45c/MainActivity" managed-name="appsql.MainActivity, appsql" managed-type-token-id="33554441" />
+    <entry java-name="crc644f253a9cee5ba45c/MainApplication" managed-name="appsql.MainApplication, appsql" managed-type-token-id="33554442" />
+  </managed-to-java>
+</api>
