@@ -34,6 +34,36 @@ namespace appsql.Repositories
             }
         }
 
+        public bool UpdatePerson(int id, string? name)
+        {
+            try
+            {
+                if (id <= 0)
+                    throw new ArgumentException("Id de persona inválido");
+
+                if (string.IsNullOrWhiteSpace(name))
+                    throw new ArgumentException("Nombre es requerido");
+
+                Init();
+                int updatedRows = _conn!.Execute(
+                    "UPDATE persona SET Nombre = ? WHERE Id = ?", name.Trim(), id);
+
+                if (updatedRows == 0)
+                {
+                    StatusMessage = "La persona no existe";
+                    return false;
+                }
+
+                StatusMessage = "Persona actualizada correctamente";
+                return true;
+            }
+            catch (Exception ex)
+            {
+                StatusMessage = "Error " + ex.Message;
+                return false;
+            }
+        }
+
         public bool DeletePerson(int id)
         {
             try

@@ -23,6 +23,31 @@ public partial class vPersona : ContentPage
 		lblStatusMessage.Text = App._personRepo.StatusMessage;
 	}
 
+	private async void btnActualizar_Clicked(object? sender, EventArgs e)
+	{
+		if (sender is not Button { CommandParameter: Persona persona })
+			return;
+
+		string? name = await DisplayPromptAsync(
+			"Actualizar persona", "Nuevo nombre:",
+			accept: "Guardar", cancel: "Cancelar", initialValue: persona.Nombre);
+
+		if (name is null)
+			return;
+
+		bool updated = App._personRepo.UpdatePerson(persona.Id, name);
+		string message = App._personRepo.StatusMessage;
+
+		if (updated)
+		{
+			listaPersonas.ItemsSource = App._personRepo.GetAllPersonas();
+			if (!string.IsNullOrEmpty(App._personRepo.StatusMessage))
+				message = App._personRepo.StatusMessage;
+		}
+
+		lblStatusMessage.Text = message;
+	}
+
 	private void btnEliminar_Clicked(object? sender, EventArgs e)
 	{
 		if (sender is not Button { CommandParameter: int id })

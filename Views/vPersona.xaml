@@ -45,10 +45,16 @@
                         SelectionMode="None">
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="models:Persona">
-                    <Grid Padding="0,8" ColumnDefinitions="40,*,Auto" ColumnSpacing="10">
+                    <Grid Padding="0,8" RowDefinitions="Auto,Auto" ColumnDefinitions="40,*,Auto" ColumnSpacing="10" RowSpacing="8">
                         <Label Grid.Column="0" Text="{Binding Id}" TextColor="Black" VerticalOptions="Center" />
                         <Label Grid.Column="1" Text="{Binding Nombre}" TextColor="Black" VerticalOptions="Center" />
                         <Button Grid.Column="2"
+                                Text="Actualizar"
+                                BackgroundColor="#512BD4"
+                                TextColor="White"
+                                CommandParameter="{Binding .}"
+                                Clicked="btnActualizar_Clicked" />
+                        <Button Grid.Row="1" Grid.Column="2"
                                 Text="Eliminar"
                                 BackgroundColor="#C62828"
                                 TextColor="White"
