@@ -1,5 +1,7 @@
 using SQLite;
 using appsql.Models;
+using System.Globalization;
+using System.Text;
 
 namespace appsql.Repositories
 {
@@ -15,23 +17,43 @@ namespace appsql.Repositories
             _dbPath = path;
         }
 
-        public void AddNewPerson(string name)
+        public bool AddNewPerson(string? name)
         {
             try
             {
-                Init();
-
                 if (string.IsNullOrWhiteSpace(name))
                     throw new Exception("Nombre es requerido");
 
-                Persona persona = new() { Nombre = name };
+                Init();
+                string normalizedName = NormalizeName(name);
+                bool alreadyRegistered = _conn!.Table<Persona>().ToList()
+                    .Any(person => NormalizeName(person.Nombre) == normalizedName);
+
+                if (alreadyRegistered)
+                {
+                    StatusMessage = "Esta persona ya se registró";
+                    return false;
+                }
+
+                Persona persona = new() { Nombre = string.Join(" ", name.Split((char[]?)null, StringSplitOptions.RemoveEmptyEntries)) };
                 _conn!.Insert(persona);
                 StatusMessage = "Dato Ingresado";
+                return true;
             }
             catch (Exception ex)
             {
                 StatusMessage = "Error " + ex.Message;
+                return false;
             }
+        }
+
+        private static string NormalizeName(string name)
+        {
+            string collapsed = string.Join(" ", name.Split((char[]?)null, StringSplitOptions.RemoveEmptyEntries));
+            string decomposed = collapsed.Normalize(NormalizationForm.FormD);
+            return new string(decomposed
+                .Where(character => CharUnicodeInfo.GetUnicodeCategory(character) != UnicodeCategory.NonSpacingMark)
+                .ToArray()).ToUpperInvariant();
         }
 
         public bool UpdatePerson(int id, string? name)

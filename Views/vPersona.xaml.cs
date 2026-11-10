@@ -16,11 +16,21 @@ public partial class vPersona : ContentPage
 		lblStatusMessage.Text = App._personRepo.StatusMessage;
 	}
 
-	private void btnAgregar_Clicked(object? sender, EventArgs e)
+	private async void btnAgregar_Clicked(object? sender, EventArgs e)
 	{
 		lblStatusMessage.Text = string.Empty;
-		App._personRepo.AddNewPerson(txtName.Text?.Trim() ?? string.Empty);
+		bool added = App._personRepo.AddNewPerson(txtName.Text);
 		lblStatusMessage.Text = App._personRepo.StatusMessage;
+
+		if (added)
+		{
+			txtName.Text = string.Empty;
+			txtName.Focus();
+		}
+		else
+		{
+			await DisplayAlertAsync("Registro de personas", App._personRepo.StatusMessage, "Aceptar");
+		}
 	}
 
 	private async void btnActualizar_Clicked(object? sender, EventArgs e)
